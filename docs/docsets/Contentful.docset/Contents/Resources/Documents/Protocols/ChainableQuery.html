@@ -8,14 +8,22 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Protocol/ChainableQuery" class="dashAnchor"></a>
     <a title="ChainableQuery Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Contentful Docs</a> (72% documented)</p>
+        <p><a href="../index.html">Contentful 5.5.0 Docs</a> (93% documented)</p>
         <p class="header-right"><a href="https://github.com/contentful/contentful.swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -32,7 +40,19 @@
             <a href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Classes/APIError.html">APIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/APIError/Sys.html">– Sys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/APIError/Details.html">– Details</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/Asset.html">Asset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Asset/Fields.html">– Fields</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Asset/FileMetadata.html">– FileMetadata</a>
@@ -41,22 +61,49 @@
                 <a href="../Classes/AssetQuery.html">AssetQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/Client.html">Client</a>
+                <a href="../Classes/BlockNode.html">BlockNode</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10Contentful12ContentModel">ContentModel</a>
+                <a href="../Classes.html#/s:10Contentful10BlockQuoteC">BlockQuote</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Client.html">Client</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/ContentType.html">ContentType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/ContentfulError.html">ContentfulError</a>
+                <a href="../Classes/ContentType/QueryableCodingKey.html">– QueryableCodingKey</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10Contentful5Entry">Entry</a>
+                <a href="../Classes/ContentTypeQuery.html">ContentTypeQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/FilterQuery.html">FilterQuery</a>
+                <a href="../Classes/DeletedResource.html">DeletedResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Entry.html">Entry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Heading.html">Heading</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful14HorizontalRuleC">HorizontalRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Hyperlink.html">Hyperlink</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Hyperlink/Data.html">– Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InlineNode.html">InlineNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LinkQuery.html">LinkQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful8ListItemC">ListItem</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Locale.html">Locale</a>
@@ -65,10 +112,31 @@
                 <a href="../Classes/LocalizableResource.html">LocalizableResource</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10Contentful19LocalizationContext">LocalizationContext</a>
+                <a href="../Classes/LocalizableResource/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocalizationContext.html">LocalizationContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ordered.html">Ordered</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful11OrderedListC">OrderedList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ordering.html">Ordering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful9ParagraphC">Paragraph</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Query.html">Query</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Query/Operation.html">– Operation</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/QueryOn.html">QueryOn</a>
@@ -77,7 +145,19 @@
                 <a href="../Classes/RateLimitError.html">RateLimitError</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/Resource.html">Resource</a>
+                <a href="../Classes/ResourceLinkBlock.html">ResourceLinkBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResourceLinkData.html">ResourceLinkData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResourceLinkInline.html">ResourceLinkInline</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResourceQuery.html">ResourceQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RichTextDocument.html">RichTextDocument</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Space.html">Space</a>
@@ -86,15 +166,30 @@
                 <a href="../Classes/SyncSpace.html">SyncSpace</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/SysISO8601DateTransform.html">SysISO8601DateTransform</a>
+                <a href="../Classes/SyncSpace/SyncableTypes.html">– SyncableTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful13UnorderedListC">UnorderedList</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Enums.html">Enums</a>
+            <a href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Enums/Bounds.html">Bounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentfulLogger.html">ContentfulLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentfulLogger/LogLevel.html">– LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentfulLogger/LogType.html">– LogType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Endpoint.html">Endpoint</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/FieldType.html">FieldType</a>
@@ -109,6 +204,9 @@
                 <a href="../Enums/Format.html">Format</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/Host.html">Host</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/ImageOption.html">ImageOption</a>
               </li>
               <li class="nav-group-task">
@@ -118,13 +216,22 @@
                 <a href="../Enums/Link.html">Link</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/Link/Sys.html">– Sys</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/MimetypeGroup.html">MimetypeGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NodeType.html">NodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PngBits.html">PngBits</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/QueryError.html">QueryError</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/QueryOperation.html">QueryOperation</a>
+                <a href="../Enums/QueryParameter.html">QueryParameter</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SDKError.html">SDKError</a>
@@ -138,13 +245,25 @@
                 <a href="../Extensions/Date.html">Date</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/Date/Formatter.html">– Formatter</a>
+                <a href="../Extensions/Date/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Decodable.html">Decodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Decoder.html">Decoder</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/Dictionary.html">Dictionary</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/KeyedDecodingContainer.html">KeyedDecodingContainer</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -155,10 +274,13 @@
             <a href="../Functions.html">Functions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:F10Contentfuloi2eeFTCS_8ResourceS0__Sb">==(_:_:)</a>
+                <a href="../Functions.html#/s:10Contentful1poiySDyxq_GAC_ACtSHRzr0_lF">+(_:_:)</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:F10Contentfuloi2eeFTOS_11ImageOptionS0__Sb">==(_:_:)</a>
+                <a href="../Functions.html#/s:10Contentful2peoiySDyxq_GAC_ACtSHRzr0_lF">+=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Contentful2eeoiySbAA11ImageOptionO_ADtF">==(_:_:)</a>
               </li>
             </ul>
           </li>
@@ -169,16 +291,40 @@
                 <a href="../Protocols/AbstractQuery.html">AbstractQuery</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/AbstractResourceQuery.html">AbstractResourceQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10Contentful14AssetDecodableP">AssetDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AssetProtocol.html">AssetProtocol</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/ChainableQuery.html">ChainableQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/ContentModellable.html">ContentModellable</a>
+                <a href="../Protocols/CustomLogger.html">CustomLogger</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/EntryModellable.html">EntryModellable</a>
+                <a href="../Protocols/EndpointAccessible.html">EndpointAccessible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EntryDecodable.html">EntryDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EntryQuery.html">EntryQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FieldKeysQueryable.html">FieldKeysQueryable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FlatResource.html">FlatResource</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/Integration.html">Integration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Node.html">Node</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/PersistenceIntegration.html">PersistenceIntegration</a>
@@ -187,15 +333,24 @@
                 <a href="../Protocols/QueryableRange.html">QueryableRange</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/SpaceModellable.html">SpaceModellable</a>
+                <a href="../Protocols/RecursiveNode.html">RecursiveNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Resource.html">Resource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ResourceQueryable.html">ResourceQueryable</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Structs.html">Structs</a>
+            <a href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Structs/ArrayResponse.html">ArrayResponse</a>
+                <a href="../Structs/ArrayResponseError.html">ArrayResponseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ArrayResponseError/Sys.html">– Sys</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/ClientConfiguration.html">ClientConfiguration</a>
@@ -204,33 +359,57 @@
                 <a href="../Structs/Field.html">Field</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/LinkSys.html">LinkSys</a>
+                <a href="../Structs/HeterogeneousArrayResponse.html">HeterogeneousArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/MappedArrayResponse.html">MappedArrayResponse</a>
+                <a href="../Structs/HomogeneousArrayResponse.html">HomogeneousArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/MappedContent.html">MappedContent</a>
+                <a href="../Structs/ImageOptionError.html">ImageOptionError</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/OrderParameter.html">OrderParameter</a>
+                <a href="../Structs/Metadata.html">Metadata</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs.html#/s:V10Contentful14QueryParameter">QueryParameter</a>
+                <a href="../Structs/Metadata/CodingKeys.html">– CodingKeys</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Sys.html">Sys</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Sys/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text/Mark.html">– Mark</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text/MarkType.html">– MarkType</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Typealiases.html">Typealiases</a>
+            <a href="../Typealiases.html">Type Aliases</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:10Contentful14ResultsHandler">ResultsHandler</a>
+                <a href="../Typealiases.html#/s:10Contentful13ArrayResponsea">ArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:10Contentful14TaskObservable">TaskObservable</a>
+                <a href="../Typealiases.html#/s:10Contentful13ContentTypeIda">ContentTypeId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful9FieldNamea">FieldName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful10LocaleCodea">LocaleCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful18MixedArrayResponsea">MixedArrayResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful14ResultsHandlera">ResultsHandler</a>
               </li>
             </ul>
           </li>
@@ -242,24 +421,37 @@
             <h1>ChainableQuery</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ChainableQuery</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AbstractQuery.html">AbstractQuery</a></span></code></pre>
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ChainableQuery</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/AbstractQuery.html">AbstractQuery</a></span></code></pre>
 
                 </div>
               </div>
             <p>Protocol which enables concrete query implementations to be &lsquo;chained&rsquo; together so that results
-can be filtered by more than one QueryOperation or other query. Protocol extensions give default implementation
-so that all concrete types, <code><a href="../Classes/Query.html">Query</a></code>, <code><a href="../Classes/AssetQuery.html">AssetQuery</a></code>, <code><a href="../Classes/FilterQuery.html">FilterQuery</a></code>, and <code><a href="../Classes/QueryOn.html">QueryOn&lt;EntryType&gt;</a></code>, can use the same implementation.</p>
+can be filtered by more than one <code><a href="../Classes/Query/Operation.html">Query.Operation</a></code> or other query. Protocol extensions give default implementation
+so that all concrete types, <code><a href="../Classes/Query.html">Query</a></code>, <code><a href="../Classes/AssetQuery.html">AssetQuery</a></code>, <code>FilterQuery</code>, and <code><a href="../Classes/QueryOn.html">QueryOn&lt;EntryType&gt;</a></code>, can use the same implementation.</p>
 
+              <div class="slightly-smaller">
+                <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L266">Show on GitHub</a>
+              </div>
           </section>
           <section class="section task-group-section">
             <div class="task-group">
+              <div class="task-name-container">
+                <a name="/KeyPath%2FValue%20operations."></a>
+                <a name="//apple_ref/swift/Section/KeyPath/Value operations." class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/KeyPath%2FValue%20operations."></a>
+                  <h3 class="section-name"><p>KeyPath/Value operations.</p>
+</h3>
+                </div>
+              </div>
               <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuerycFzT20selectingFieldsNamedGSaSS_3forGSqSS__x"></a>
-                    <a name="//apple_ref/swift/Method/init(selectingFieldsNamed:for:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuerycFzT20selectingFieldsNamedGSaSS_3forGSqSS__x">init(selectingFieldsNamed:for:)</a>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5where3sys_xAA3SysV10CodingKeysO_AA0C0C9OperationOtF"></a>
+                    <a name="//apple_ref/swift/Method/where(sys:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5where3sys_xAA3SysV10CodingKeysO_AA0C0C9OperationOtF">where(sys:<wbr>_:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -270,33 +462,17 @@ so that all concrete types, <code><a href="../Classes/Query.html">Query</a></cod
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Convenience initializer for a select operation query in which only the fields specified 
-in the fieldNames property will be returned in the JSON response.
-The <code>&quot;sys&quot;</code> dictionary is always requested by the SDK. 
-Note that if you are using the select operator with an instance <code><a href="../Classes/QueryOn.html">QueryOn&lt;EntryType&gt;</a></code>
-that you must make properties that you are ommitting in the response (by not including them in your selections array) optional properties.
-Example usage:</p>
-<pre class="highlight plaintext"><code>let query = try! QueryOn&lt;Cat&gt;(selectingFieldsNamed: ["fields.bestFriend", "fields.color", "fields.name"])
-client.fetchMappedEntries(with: query).observable.then { catsResponse in
-   let cats = catsResponse.items
-   // Do stuff with cats.
-}
-</code></pre>
-
-<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/select-operator">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/select-operator</a></p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Will throw an error if property names are not prefixed with <code>&quot;fields.&quot;</code>, if selections go more than 2 levels deep
-      (<q>fields.bestFriend.sys</q> is not valid), or if more than 99 properties are selected.
-
-</div>
+                        <p>Instance method for appending a <code><a href="../Classes/Query/Operation.html">Query.Operation</a></code> to a <code><a href="../Classes/Query.html">Query</a></code>. This variation for creating a query guarantees correct query construction
+when performing operations on &ldquo;sys&rdquo; members. See concrete types <code><a href="../Classes/Query.html">Query</a></code>, <code>FilterQuery</code>, <code><a href="../Classes/AssetQuery.html">AssetQuery</a></code>, and <code><a href="../Classes/QueryOn.html">QueryOn</a></code>
+for more information and example usage.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">selectingFieldsNamed</span> <span class="nv">fieldNames</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">],</span> <span class="k">for</span> <span class="nv">locale</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="n">sys</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Structs/Sys.html">Sys</a></span><span class="o">.</span><span class="kt">CodingKeys</span><span class="p">,</span> <span class="n">_</span> <span class="nv">operation</span><span class="p">:</span> <span class="kt"><a href="../Classes/Query.html">Query</a></span><span class="o">.</span><span class="kt">Operation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -307,33 +483,36 @@ client.fetchMappedEntries(with: query).observable.then { catsResponse in
                             <tr>
                               <td>
                                 <code>
-                                <em>fieldNames</em>
+                                <em>key</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>An array of field names to include in the JSON response.</p>
+                                  <p>The <code>Sys.CodingKey</code> of the system property you are performing the Query.Operation against. For instance, <code>.id</code>.</p>
                                 </div>
                               </td>
                             </tr>
                             <tr>
                               <td>
                                 <code>
-                                <em>locale</em>
+                                <em>operation</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>An optional locale argument to return localized results. If unspecified, the locale originally
-set on the <code>Client</code> instance is used.</p>
+                                  <p>The query operation used in the query.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L275-L278">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L278-L281">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -341,9 +520,9 @@ set on the <code>Client</code> instance is used.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuerycFzt12orderedUsingGSaVS_14OrderParameter__x"></a>
-                    <a name="//apple_ref/swift/Method/init(orderedUsing:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuerycFzt12orderedUsingGSaVS_14OrderParameter__x">init(orderedUsing:)</a>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5where8metadata_xAA8MetadataV10CodingKeysO_AA0C0C9OperationOtF"></a>
+                    <a name="//apple_ref/swift/Method/where(metadata:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5where8metadata_xAA8MetadataV10CodingKeysO_AA0C0C9OperationOtF">where(metadata:<wbr>_:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -354,32 +533,17 @@ set on the <code>Client</code> instance is used.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Convenience initializer for a ordering responses by the values at the specified field. Field types that can be
-specified are Strings, Numbers, or Booleans.</p>
-
-<p>Example usage:</p>
-<pre class="highlight plaintext"><code>let query = try! Query(orderedUsing: OrderParameter("sys.createdAt"))
-
-client.fetchEntries(with: query).observable.then { entriesResponse in
-   let entries = entriesResponse.items
-   // Do stuff with entries.
-}
-</code></pre>
-
-<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order</a>
-and: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order-with-multiple-parameters">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order-with-multiple-parameters</a></p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Will throw an error if property names are not prefixed with either <code>&quot;sys.&quot;</code> or <code>&quot;fields.&quot;</code>.
-
-</div>
+                        <p>Instance method for appending a <code><a href="../Classes/Query/Operation.html">Query.Operation</a></code> to a <code><a href="../Classes/Query.html">Query</a></code>. This variation for creating a query guarantees correct query construction
+when performing operations on &ldquo;metadata&rdquo; members. See concrete types <code><a href="../Classes/Query.html">Query</a></code>, <code>FilterQuery</code>, <code><a href="../Classes/AssetQuery.html">AssetQuery</a></code>, and <code><a href="../Classes/QueryOn.html">QueryOn</a></code>
+for more information and example usage.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">orderedUsing</span> <span class="nv">orderParameters</span><span class="p">:</span> <span class="kt"><a href="../Structs/OrderParameter.html">OrderParameter</a></span><span class="o">...</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="n">metadata</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Structs/Metadata.html">Metadata</a></span><span class="o">.</span><span class="kt">CodingKeys</span><span class="p">,</span> <span class="n">_</span> <span class="nv">operation</span><span class="p">:</span> <span class="kt"><a href="../Classes/Query.html">Query</a></span><span class="o">.</span><span class="kt">Operation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -390,32 +554,36 @@ and: <a href="https://www.contentful.com/developers/docs/references/content-deli
                             <tr>
                               <td>
                                 <code>
-                                <em>propertyName</em>
+                                <em>key</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>One or more properties on the Resource by which the results will be ordered.</p>
+                                  <p>The <code>Metadata.CodingKey</code> of the system property you are performing the Query.Operation against. For instance, <code>.tags</code>.</p>
                                 </div>
                               </td>
                             </tr>
                             <tr>
                               <td>
                                 <code>
-                                <em>reverse</em>
+                                <em>operation</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>An Bool specifying if the returned order should be reversed or not. Defaults to <code>false</code>.</p>
+                                  <p>The query operation used in the query.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L301-L304">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L292-L295">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -423,9 +591,9 @@ and: <a href="https://www.contentful.com/developers/docs/references/content-deli
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuerycFzT17limitingResultsToSu_x"></a>
-                    <a name="//apple_ref/swift/Method/init(limitingResultsTo:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuerycFzT17limitingResultsToSu_x">init(limitingResultsTo:)</a>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5where15metadataTagsIdsxAA0C0C9OperationO_tF"></a>
+                    <a name="//apple_ref/swift/Method/where(metadataTagsIds:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5where15metadataTagsIdsxAA0C0C9OperationO_tF">where(metadataTagsIds:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -436,24 +604,17 @@ and: <a href="https://www.contentful.com/developers/docs/references/content-deli
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Convenience initializer for a limiting responses to a certain number of values. Use in conjunction with the <code>skip</code> method
-to paginate responses.</p>
-
-<p>Example usage:</p>
-<pre class="highlight plaintext"><code>let query = try! Query(orderedBy: "sys.createdAt")
-
-client.fetchEntries(with: query).observable.then { entriesResponse in
-   let entries = entriesResponse.items
-   // Do stuff with entries.
-}
-</code></pre>
+                        <p>Instance method for appending a <code><a href="../Classes/Query/Operation.html">Query.Operation</a></code> to a <code><a href="../Classes/Query.html">Query</a></code>. This variation for creating a query guarantees correct query construction
+when performing operations on &ldquo;metadata&rdquo; members. See concrete types <code><a href="../Classes/Query.html">Query</a></code>, <code>FilterQuery</code>, <code><a href="../Classes/AssetQuery.html">AssetQuery</a></code>, and <code><a href="../Classes/QueryOn.html">QueryOn</a></code>
+for more information and example usage.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">limitingResultsTo</span> <span class="nv">numberOfResults</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="n">metadataTagsIds</span> <span class="nv">operation</span><span class="p">:</span> <span class="kt"><a href="../Classes/Query.html">Query</a></span><span class="o">.</span><span class="kt">Operation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -464,20 +625,24 @@ client.fetchEntries(with: query).observable.then { entriesResponse in
                             <tr>
                               <td>
                                 <code>
-                                <em>numberOfResults</em>
+                                <em>metadataTagsIds</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>The number of results the response will be limited to.</p>
+                                  <p>The query operation used in the query against metadata tags ids.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L323-L328">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L305-L308">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -485,9 +650,9 @@ client.fetchEntries(with: query).observable.then { entriesResponse in
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuerycFT16skippingTheFirstSu_x"></a>
-                    <a name="//apple_ref/swift/Method/init(skippingTheFirst:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuerycFT16skippingTheFirstSu_x">init(skippingTheFirst:)</a>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5where5field_xSS_AA0C0C9OperationOtFZ"></a>
+                    <a name="//apple_ref/swift/Method/where(field:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5where5field_xSS_AA0C0C9OperationOtFZ">where(field:<wbr>_:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -498,24 +663,16 @@ client.fetchEntries(with: query).observable.then { entriesResponse in
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Convenience initializer for a skipping the first <code>n</code> items in a response.
-Use in conjunction with the <code>limit</code> method to paginate responses.</p>
-
-<p>Example usage:</p>
-<pre class="highlight plaintext"><code>let query = try! Query(skippingTheFirst: 9)
-
-client.fetchEntries(with: query).observable.then { entriesResponse in
-   let entries = entriesResponse.items
-   // Do stuff with entries.
-}
-</code></pre>
+                        <p>Static method for creating a Query with a Query.Operation. This variation for creating a query guarantees correct query contruction
+when performing operations on &ldquo;sys&rdquo; members. See concrete types Query, FilterQuery, AssetQuery, and QueryOn
+for more information and example usage.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">skippingTheFirst</span> <span class="nv">numberOfResults</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="n">field</span> <span class="nv">fieldName</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:10Contentful9FieldNamea">FieldName</a></span><span class="p">,</span> <span class="n">_</span> <span class="nv">operation</span><span class="p">:</span> <span class="kt"><a href="../Classes/Query.html">Query</a></span><span class="o">.</span><span class="kt">Operation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -526,20 +683,36 @@ client.fetchEntries(with: query).observable.then { entriesResponse in
                             <tr>
                               <td>
                                 <code>
-                                <em>numberOfResults</em>
+                                <em>fieldName</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>The number of results that will be skipped in the query.</p>
+                                  <p>The string name of the field that the <code><a href="../Classes/Query/Operation.html">Query.Operation</a></code> is matching against. For instance, &ldquo;.name&rdquo;</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>operation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The query operation used in the query.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A newly initialized query.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L347-L350">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L318-L320">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -547,9 +720,9 @@ client.fetchEntries(with: query).observable.then { entriesResponse in
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuery6selectFzT11fieldsNamedGSaSS_6localeGSqSS__T_"></a>
-                    <a name="//apple_ref/swift/Method/select(fieldsNamed:locale:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuery6selectFzT11fieldsNamedGSaSS_6localeGSqSS__T_">select(fieldsNamed:locale:)</a>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5where5field_xSS_AA0C0C9OperationOtF"></a>
+                    <a name="//apple_ref/swift/Method/where(field:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5where5field_xSS_AA0C0C9OperationOtF">where(field:<wbr>_:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -560,33 +733,17 @@ client.fetchEntries(with: query).observable.then { entriesResponse in
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Instance method for select operation in which only the fields specified in the fieldNames property will be returned in the JSON response.
-The <code>&quot;sys&quot;</code> dictionary is always requested by the SDK.
-Note that if you are using the select operator with an instance <code><a href="../Classes/QueryOn.html">QueryOn&lt;EntryType&gt;</a></code>
-that you must make properties that you are ommitting in the response (by not including them in your selections array) optional properties.
-Example usage:</p>
-<pre class="highlight plaintext"><code>let query = try! QueryOn&lt;Cat&gt;()
-query.select(fieldsNamed: ["fields.bestFriend", "fields.color", "fields.name"])
-client.fetchEntries(with: query).observable.then { catsResponse in
-   let cats = catsResponse.items
-   // Do stuff with cats.
-}
-</code></pre>
-
-<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/select-operator">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/select-operator</a></p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Will throw an error if property names are not prefixed with <code>&quot;fields.&quot;</code>, if selections go more than 2 levels deep
-      (<q>fields.bestFriend.sys</q> is not valid), or if more than 99 properties are selected.
-
-</div>
+                        <p>Instance method for appending a Query.Operation to a Query. This variation for creating a query guarantees correct query contruction
+when performing operations on &ldquo;field&rdquo; members. See concrete types Query, FilterQuery, AssetQuery, and QueryOn
+for more information and example usage.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">select</span><span class="p">(</span><span class="n">fieldsNamed</span> <span class="nv">fieldNames</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">],</span> <span class="nv">locale</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="n">field</span> <span class="nv">fieldName</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:10Contentful9FieldNamea">FieldName</a></span><span class="p">,</span> <span class="n">_</span> <span class="nv">operation</span><span class="p">:</span> <span class="kt"><a href="../Classes/Query.html">Query</a></span><span class="o">.</span><span class="kt">Operation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -597,33 +754,36 @@ client.fetchEntries(with: query).observable.then { catsResponse in
                             <tr>
                               <td>
                                 <code>
-                                <em>fieldNames</em>
+                                <em>fieldName</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>An array of field names to include in the JSON response.</p>
+                                  <p>The string name of the field that the <code><a href="../Classes/Query/Operation.html">Query.Operation</a></code> is matching against. For instance, &ldquo;name&rdquo;</p>
                                 </div>
                               </td>
                             </tr>
                             <tr>
                               <td>
                                 <code>
-                                <em>locale</em>
+                                <em>operation</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>An optional locale argument to return localized results. If unspecified, the locale originally
-set on the <code>Client</code> instance is used.</p>
+                                  <p>The query operation used in the query.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L375-L385">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L331-L334">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -631,9 +791,9 @@ set on the <code>Client</code> instance is used.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuery5orderFzt5usingGSaVS_14OrderParameter__T_"></a>
-                    <a name="//apple_ref/swift/Method/order(using:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuery5orderFzt5usingGSaVS_14OrderParameter__T_">order(using:)</a>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5where14valueAtKeyPath_xSS_AA0C0C9OperationOtF"></a>
+                    <a name="//apple_ref/swift/Method/where(valueAtKeyPath:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5where14valueAtKeyPath_xSS_AA0C0C9OperationOtF">where(valueAtKeyPath:<wbr>_:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -644,32 +804,20 @@ set on the <code>Client</code> instance is used.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Instance method for ordering responses by the values at the specified field. Field types that can be
-specified are Strings, Numbers, or Booleans.</p>
+                        <p>Instance method for appending more <code><a href="../Classes/Query/Operation.html">Query.Operation</a></code>s to further filter results on the API. Example usage:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="kt">Query</span><span class="o">.</span><span class="nf">where</span><span class="p">(</span><span class="nv">contentTypeId</span><span class="p">:</span> <span class="s">"cat"</span><span class="p">)</span><span class="o">.</span><span class="nf">where</span><span class="p">(</span><span class="s">"fields.color"</span><span class="p">,</span> <span class="o">.</span><span class="nf">doesNotEqual</span><span class="p">(</span><span class="s">"gray"</span><span class="p">))</span>
 
-<p>Example usage:</p>
-<pre class="highlight plaintext"><code>let query = try! Query(orderedUsing: OrderParameter("sys.createdAt"))
-
-client.fetchEntries(with: query).observable.then { entriesResponse in
-   let entries = entriesResponse.items
-   // Do stuff with entries.
-}
+<span class="c1">// Mutate the query further.</span>
+<span class="n">query</span><span class="o">.</span><span class="nf">where</span><span class="p">(</span><span class="nv">valueAtKeyPath</span><span class="p">:</span> <span class="s">"fields.lives"</span><span class="p">,</span> <span class="o">.</span><span class="nf">equals</span><span class="p">(</span><span class="s">"9"</span><span class="p">))</span>
 </code></pre>
-
-<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order</a>
-and: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order-with-multiple-parameters">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order-with-multiple-parameters</a></p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Will throw an error if property names are not prefixed with either <code>&quot;sys.&quot;</code> or <code>&quot;fields.&quot;</code>.
-
-</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">order</span><span class="p">(</span><span class="n">using</span> <span class="nv">orderParameters</span><span class="p">:</span> <span class="kt"><a href="../Structs/OrderParameter.html">OrderParameter</a></span><span class="o">...</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="n">valueAtKeyPath</span> <span class="nv">keyPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">operation</span><span class="p">:</span> <span class="kt"><a href="../Classes/Query.html">Query</a></span><span class="o">.</span><span class="kt">Operation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -680,156 +828,37 @@ and: <a href="https://www.contentful.com/developers/docs/references/content-deli
                             <tr>
                               <td>
                                 <code>
-                                <em>propertyName</em>
+                                <em>keyPath</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>One or more properties on the Resource by which the results will be ordered.</p>
+                                  <p>The key path for the property you are performing the Query.Operation against. For instance,
+     <code>&quot;sys.id&quot; or</code>&ldquo;fields.yourFieldName&rdquo;`.</p>
                                 </div>
                               </td>
                             </tr>
                             <tr>
                               <td>
                                 <code>
-                                <em>reverse</em>
+                                <em>operation</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>An Bool specifying if the returned order should be reversed or not. Defaults to <code>false</code>.</p>
+                                  <p>The query operation used in the query.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L408-L410">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuery5limitFzT2toSu_T_"></a>
-                    <a name="//apple_ref/swift/Method/limit(to:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuery5limitFzT2toSu_T_">limit(to:)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Extension method
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Instance method for further mutating a query to limit responses to a certain number of values. Use in conjunction with the <code>skip</code> method
-to paginate responses.</p>
-
-<p>Example usage:</p>
-<pre class="highlight plaintext"><code>let query = try! Query(orderedBy: "sys.createdAt")
-
-client.fetchEntries(with: query).observable.then { entriesResponse in
-   let entries = entriesResponse.items
-   // Do stuff with entries.
-}
-</code></pre>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">limit</span><span class="p">(</span><span class="n">to</span> <span class="nv">numberOfResults</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="k">throws</span></code></pre>
-
-                        </div>
                       </div>
                       <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>numberOfResults</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The number of results the response will be limited to.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L429-L433">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuery4skipFT8theFirstSu_T_"></a>
-                    <a name="//apple_ref/swift/Method/skip(theFirst:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuery4skipFT8theFirstSu_T_">skip(theFirst:)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Extension method
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Intance method for further mutating a query to skip the first <code>n</code> items in a response.
-Use in conjunction with the <code>limit</code> method to paginate responses.</p>
-
-<p>Example usage:</p>
-<pre class="highlight plaintext"><code>let query = try! Query(skippingTheFirst: 9)
-
-client.fetchEntries(with: query).observable.then { entriesResponse in
-   let entries = entriesResponse.items
-   // Do stuff with entries.
-}
-</code></pre>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">skip</span><span class="p">(</span><span class="n">theFirst</span> <span class="nv">numberOfResults</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>numberOfResults</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The number of results that will be skipped in the query.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L452-L454">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L351-L357">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -840,17 +869,19 @@ client.fetchEntries(with: query).observable.then { entriesResponse in
               <div class="task-name-container">
                 <a name="/Full-text%20search"></a>
                 <a name="//apple_ref/swift/Section/Full-text search" class="dashAnchor"></a>
-                <a href="#/Full-text%20search">
-                  <h3 class="section-name">Full-text search</h3>
-                </a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Full-text%20search"></a>
+                  <h3 class="section-name"><p>Full-text search</p>
+</h3>
+                </div>
               </div>
               <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuerycFzT12searchingForSS3forGSqSS__x"></a>
-                    <a name="//apple_ref/swift/Method/init(searchingFor:for:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuerycFzT12searchingForSS3forGSqSS__x">init(searchingFor:for:)</a>
+                    <a name="/s:10Contentful14ChainableQueryPAAE9searching3forxSS_tKFZ"></a>
+                    <a name="//apple_ref/swift/Method/searching(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE9searching3forxSS_tKFZ">searching(for:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -865,13 +896,18 @@ client.fetchEntries(with: query).observable.then { entriesResponse in
 the specified, case-insensitive text parameter.</p>
 
 <p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/full-text-search">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/full-text-search</a></p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    A <code><a href="../Enums/QueryError.html">QueryError</a></code> if the text being searched for is 1 character in length or less.
+
+</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">searchingFor</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="k">for</span> <span class="nv">locale</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">searching</span><span class="p">(</span><span class="k">for</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -891,24 +927,15 @@ the specified, case-insensitive text parameter.</p>
                                 </div>
                               </td>
                             </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>locale</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>An optional locale argument to return localized results. If unspecified, the locale originally
-                set on the <code>Client</code> instance is used.</p>
-                                </div>
-                              </td>
-                            </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A newly initialized query.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L468-L472">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L369-L373">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -916,9 +943,9 @@ the specified, case-insensitive text parameter.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FE10ContentfulPS_14ChainableQuery6searchFT3forSS_T_"></a>
-                    <a name="//apple_ref/swift/Method/search(for:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FE10ContentfulPS_14ChainableQuery6searchFT3forSS_T_">search(for:)</a>
+                    <a name="/s:10Contentful14ChainableQueryPAAE9searching3forxSS_tKF"></a>
+                    <a name="//apple_ref/swift/Method/searching(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE9searching3forxSS_tKF">searching(for:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -933,13 +960,19 @@ the specified, case-insensitive text parameter.</p>
 either entries or assets in which all text and symbol fields contain the specified, case-insensitive text parameter.</p>
 
 <p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/full-text-search">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/full-text-search</a></p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    A <code><a href="../Enums/QueryError.html">QueryError</a></code> if the text being searched for is 1 character in length or less.
+
+</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">search</span><span class="p">(</span><span class="k">for</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">searching</span><span class="p">(</span><span class="k">for</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -959,24 +992,531 @@ either entries or assets in which all text and symbol fields contain the specifi
                                 </div>
                               </td>
                             </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L384-L388">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Response%20Manipulations."></a>
+                <a name="//apple_ref/swift/Section/Response Manipulations." class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Response%20Manipulations."></a>
+                  <h3 class="section-name"><p>Response Manipulations.</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14ChainableQueryPAAE7includeyxSuFZ"></a>
+                    <a name="//apple_ref/swift/Method/include(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE7includeyxSuFZ">include(_:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Static method for specifiying the level of includes to be resolved in the JSON response.
+The maximum permitted level of includes at the API level is 10; the SDK will limit the includes level at 10
+before the network request is made if the passed in value is too high in order to avoid
+hitting an error from the API.
+To omit all linked items, specify an include level of 0.</p>
+
+<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/links/retrieval-of-linked-items">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/links/retrieval-of-linked-items</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">include</span><span class="p">(</span><span class="n">_</span> <span class="nv">includesLevel</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
                             <tr>
                               <td>
                                 <code>
-                                <em>locale</em>
+                                <em>includesLevel</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>An optional locale argument to return localized results. If unspecified, the locale originally
-set on the <code>Client</code> instance is used.</p>
+                                  <p>An unsigned integer specifying the level of includes to be resolved.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A newly constructed query object specifying the level of includes to be linked.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L483-L485">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L402-L406">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14ChainableQueryPAAE7includeyxSuF"></a>
+                    <a name="//apple_ref/swift/Method/include(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE7includeyxSuF">include(_:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specify the level of includes to be resolved in the JSON response.
+The maximum permitted level of includes at the API level is 10; the SDK will round down to the 10
+before the network request is made if the passed in value is too high in order to avoid
+hitting an error from the API.
+To omit all linked items, specify an include level of 0.</p>
+
+<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/links/retrieval-of-linked-items">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/links/retrieval-of-linked-items</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">include</span><span class="p">(</span><span class="n">_</span> <span class="nv">includesLevel</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>includesLevel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An unsigned integer specifying the level of includes to be resolved.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L419-L423">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14ChainableQueryPAAE4skip8theFirstxSu_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/skip(theFirst:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE4skip8theFirstxSu_tFZ">skip(theFirst:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Static method for creating a query that specifies that the first <code>n</code> items in a collection should be skipped
+before returning the results.
+Use in conjunction with the <code><a href="../Protocols/ChainableQuery.html#/s:10Contentful14ChainableQueryPAAE5limit2toxSu_tFZ">limit(to:)</a></code> and <code><a href="../Protocols/ChainableQuery.html#/s:10Contentful14ChainableQueryPAAE5order2byxAA8OrderingCd_tFZ">order(by:)</a></code> methods to paginate responses.</p>
+
+<p>Example usage:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="kt">Query</span><span class="o">.</span><span class="nf">skip</span><span class="p">(</span><span class="nv">theFirst</span><span class="p">:</span> <span class="mi">9</span><span class="p">)</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">skip</span><span class="p">(</span><span class="n">theFirst</span> <span class="nv">numberOfResults</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>numberOfResults</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The number of results that will be skipped in the query.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A newly constructed query object specifying the number of items to skip.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L437-L441">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14ChainableQueryPAAE4skip8theFirstxSu_tF"></a>
+                    <a name="//apple_ref/swift/Method/skip(theFirst:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE4skip8theFirstxSu_tF">skip(theFirst:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Instance method for further mutating a query to skip the first <code>n</code> items in a response.
+Use in conjunction with the <code><a href="../Protocols/ChainableQuery.html#/s:10Contentful14ChainableQueryPAAE5limit2toxSu_tFZ">limit(to:)</a></code> and <code><a href="../Protocols/ChainableQuery.html#/s:10Contentful14ChainableQueryPAAE5order2byxAA8OrderingCd_tFZ">order(by:)</a></code> methods to paginate responses.</p>
+
+<p>Example usage:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="kt">Query</span><span class="p">()</span><span class="o">.</span><span class="nf">skip</span><span class="p">(</span><span class="nv">theFirst</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">skip</span><span class="p">(</span><span class="n">theFirst</span> <span class="nv">numberOfResults</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>numberOfResults</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The number of results that will be skipped in the query.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L455-L458">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5order2byxAA8OrderingCd_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/order(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5order2byxAA8OrderingCd_tFZ">order(by:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience initializer for a ordering responses by the values at the specified field. Field types that can be
+specified are strings, numbers, or booleans.</p>
+
+<p>Example usage:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="k">try!</span> <span class="kt">Query</span><span class="p">(</span><span class="nv">orderBy</span><span class="p">:</span> <span class="kt">OrderParameter</span><span class="p">(</span><span class="s">"sys.createdAt"</span><span class="p">))</span>
+</code></pre>
+
+<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order</a>
+and: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order-with-multiple-parameters">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order-with-multiple-parameters</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">order</span><span class="p">(</span><span class="n">by</span> <span class="nv">order</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ordering.html">Ordering</a></span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>order</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The specified <code><a href="../Classes/Ordering.html">Ordering</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A newly constructed query object specifying the order of the results.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L474-L478">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5order2byxAA8OrderingCd_tF"></a>
+                    <a name="//apple_ref/swift/Method/order(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5order2byxAA8OrderingCd_tF">order(by:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Instance method for ordering responses by the values at the specified field. Field types that can be
+specified are strings, numbers, or booleans.</p>
+
+<p>Example usage:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="k">try!</span> <span class="kt">Query</span><span class="p">()</span><span class="o">.</span><span class="nf">order</span><span class="p">(</span><span class="nv">by</span><span class="p">:</span> <span class="kt">Ordering</span><span class="p">(</span><span class="nv">sys</span><span class="p">:</span> <span class="o">.</span><span class="n">createdAt</span><span class="p">))</span>
+</code></pre>
+
+<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order</a>
+and: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order-with-multiple-parameters">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/order-with-multiple-parameters</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">order</span><span class="p">(</span><span class="n">by</span> <span class="nv">order</span><span class="p">:</span> <span class="kt"><a href="../Classes/Ordering.html">Ordering</a></span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>order</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The specified Ordering.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L495-L497">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5limit2toxSu_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/limit(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5limit2toxSu_tFZ">limit(to:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Static method for creating a query that limits responses to a certain number of values. Use in conjunction with the <code>skip</code> method
+to paginate responses. The maximum number of items that can be returned by the API on one page is 1000. The SDK will limit your value
+to 1000 if you pass in something larger in order to avoid getting an error returned from the delivery API.</p>
+
+<p>Example usage:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="kt">Query</span><span class="o">.</span><span class="nf">limit</span><span class="p">(</span><span class="nv">to</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">limit</span><span class="p">(</span><span class="n">to</span> <span class="nv">numberOfResults</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>numberOfResults</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The number of results the response will be limited to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A newly constructed query object specifying the number of resuls to be returned.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L523-L527">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14ChainableQueryPAAE5limit2toxSu_tF"></a>
+                    <a name="//apple_ref/swift/Method/limit(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryPAAE5limit2toxSu_tF">limit(to:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Instance method for further mutating a query to limit responses to a certain number of values. Use in conjunction with the <code>skip</code> method
+to paginate responses. The maximum number of items that can be returned by the API on one page is 1000. The SDK will truncate your value
+to 1000 if you pass in something larger in order to avoid getting an error returned from the delivery API.
+Use in conjunction with the <code><a href="../Protocols/ChainableQuery.html#/s:10Contentful14ChainableQueryPAAE4skip8theFirstxSu_tFZ">skip(theFirst:)</a></code> and <code><a href="../Protocols/ChainableQuery.html#/s:10Contentful14ChainableQueryPAAE5order2byxAA8OrderingCd_tFZ">order(by:)</a></code> methods to paginate responses.
+Example usage:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="k">try!</span> <span class="kt">Query</span><span class="p">()</span><span class="o">.</span><span class="nf">limit</span><span class="p">(</span><span class="nv">to</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">limit</span><span class="p">(</span><span class="n">to</span> <span class="nv">numberOfResults</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>numberOfResults</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The number of results the response will be limited to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L542-L547">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -986,8 +1526,8 @@ set on the <code>Client</code> instance is used.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.contentful.com" target="_blank" rel="external">Contentful</a>. All rights reserved. (Last updated: 2017-07-31)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2021 <a class="link" href="https://www.contentful.com" target="_blank" rel="external">Contentful</a>. All rights reserved. (Last updated: 2021-05-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

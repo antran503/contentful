@@ -8,13 +8,22 @@
     <script src="js/jquery.min.js" defer></script>
     <script src="js/jazzy.js" defer></script>
     
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
   </head>
   <body>
+    <a name="//apple_ref/swift/Section/Protocols" class="dashAnchor"></a>
     <a title="Protocols  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">Contentful Docs</a> (72% documented)</p>
+        <p><a href="index.html">Contentful 5.5.0 Docs</a> (93% documented)</p>
         <p class="header-right"><a href="https://github.com/contentful/contentful.swift"><img src="img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -31,7 +40,19 @@
             <a href="Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="Classes/APIError.html">APIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/APIError/Sys.html">– Sys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/APIError/Details.html">– Details</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes/Asset.html">Asset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Asset/Fields.html">– Fields</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/Asset/FileMetadata.html">– FileMetadata</a>
@@ -40,22 +61,49 @@
                 <a href="Classes/AssetQuery.html">AssetQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/Client.html">Client</a>
+                <a href="Classes/BlockNode.html">BlockNode</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes.html#/s:C10Contentful12ContentModel">ContentModel</a>
+                <a href="Classes.html#/s:10Contentful10BlockQuoteC">BlockQuote</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Client.html">Client</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/ContentType.html">ContentType</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/ContentfulError.html">ContentfulError</a>
+                <a href="Classes/ContentType/QueryableCodingKey.html">– QueryableCodingKey</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes.html#/s:C10Contentful5Entry">Entry</a>
+                <a href="Classes/ContentTypeQuery.html">ContentTypeQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/FilterQuery.html">FilterQuery</a>
+                <a href="Classes/DeletedResource.html">DeletedResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Entry.html">Entry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Heading.html">Heading</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/s:10Contentful14HorizontalRuleC">HorizontalRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Hyperlink.html">Hyperlink</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Hyperlink/Data.html">– Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/InlineNode.html">InlineNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LinkQuery.html">LinkQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/s:10Contentful8ListItemC">ListItem</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/Locale.html">Locale</a>
@@ -64,10 +112,31 @@
                 <a href="Classes/LocalizableResource.html">LocalizableResource</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes.html#/s:C10Contentful19LocalizationContext">LocalizationContext</a>
+                <a href="Classes/LocalizableResource/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LocalizationContext.html">LocalizationContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Ordered.html">Ordered</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/s:10Contentful11OrderedListC">OrderedList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Ordering.html">Ordering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/s:10Contentful9ParagraphC">Paragraph</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/Query.html">Query</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Query/Operation.html">– Operation</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/QueryOn.html">QueryOn</a>
@@ -76,7 +145,19 @@
                 <a href="Classes/RateLimitError.html">RateLimitError</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/Resource.html">Resource</a>
+                <a href="Classes/ResourceLinkBlock.html">ResourceLinkBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ResourceLinkData.html">ResourceLinkData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ResourceLinkInline.html">ResourceLinkInline</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ResourceQuery.html">ResourceQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/RichTextDocument.html">RichTextDocument</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/Space.html">Space</a>
@@ -85,15 +166,30 @@
                 <a href="Classes/SyncSpace.html">SyncSpace</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/SysISO8601DateTransform.html">SysISO8601DateTransform</a>
+                <a href="Classes/SyncSpace/SyncableTypes.html">– SyncableTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes.html#/s:10Contentful13UnorderedListC">UnorderedList</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Enums.html">Enums</a>
+            <a href="Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="Enums/Bounds.html">Bounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ContentfulLogger.html">ContentfulLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ContentfulLogger/LogLevel.html">– LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ContentfulLogger/LogType.html">– LogType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Endpoint.html">Endpoint</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/FieldType.html">FieldType</a>
@@ -108,6 +204,9 @@
                 <a href="Enums/Format.html">Format</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/Host.html">Host</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/ImageOption.html">ImageOption</a>
               </li>
               <li class="nav-group-task">
@@ -117,13 +216,22 @@
                 <a href="Enums/Link.html">Link</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/Link/Sys.html">– Sys</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/MimetypeGroup.html">MimetypeGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/NodeType.html">NodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/PngBits.html">PngBits</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/QueryError.html">QueryError</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/QueryOperation.html">QueryOperation</a>
+                <a href="Enums/QueryParameter.html">QueryParameter</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/SDKError.html">SDKError</a>
@@ -137,13 +245,25 @@
                 <a href="Extensions/Date.html">Date</a>
               </li>
               <li class="nav-group-task">
-                <a href="Extensions/Date/Formatter.html">– Formatter</a>
+                <a href="Extensions/Date/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/Decodable.html">Decodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/Decoder.html">Decoder</a>
               </li>
               <li class="nav-group-task">
                 <a href="Extensions/Dictionary.html">Dictionary</a>
               </li>
               <li class="nav-group-task">
                 <a href="Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/KeyedDecodingContainer.html">KeyedDecodingContainer</a>
               </li>
               <li class="nav-group-task">
                 <a href="Extensions/String.html">String</a>
@@ -154,10 +274,13 @@
             <a href="Functions.html">Functions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Functions.html#/s:F10Contentfuloi2eeFTCS_8ResourceS0__Sb">==(_:_:)</a>
+                <a href="Functions.html#/s:10Contentful1poiySDyxq_GAC_ACtSHRzr0_lF">+(_:_:)</a>
               </li>
               <li class="nav-group-task">
-                <a href="Functions.html#/s:F10Contentfuloi2eeFTOS_11ImageOptionS0__Sb">==(_:_:)</a>
+                <a href="Functions.html#/s:10Contentful2peoiySDyxq_GAC_ACtSHRzr0_lF">+=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:10Contentful2eeoiySbAA11ImageOptionO_ADtF">==(_:_:)</a>
               </li>
             </ul>
           </li>
@@ -168,16 +291,40 @@
                 <a href="Protocols/AbstractQuery.html">AbstractQuery</a>
               </li>
               <li class="nav-group-task">
+                <a href="Protocols/AbstractResourceQuery.html">AbstractResourceQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:10Contentful14AssetDecodableP">AssetDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AssetProtocol.html">AssetProtocol</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Protocols/ChainableQuery.html">ChainableQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="Protocols/ContentModellable.html">ContentModellable</a>
+                <a href="Protocols/CustomLogger.html">CustomLogger</a>
               </li>
               <li class="nav-group-task">
-                <a href="Protocols/EntryModellable.html">EntryModellable</a>
+                <a href="Protocols/EndpointAccessible.html">EndpointAccessible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/EntryDecodable.html">EntryDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/EntryQuery.html">EntryQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/FieldKeysQueryable.html">FieldKeysQueryable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/FlatResource.html">FlatResource</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/Integration.html">Integration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Node.html">Node</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/PersistenceIntegration.html">PersistenceIntegration</a>
@@ -186,15 +333,24 @@
                 <a href="Protocols/QueryableRange.html">QueryableRange</a>
               </li>
               <li class="nav-group-task">
-                <a href="Protocols/SpaceModellable.html">SpaceModellable</a>
+                <a href="Protocols/RecursiveNode.html">RecursiveNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Resource.html">Resource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ResourceQueryable.html">ResourceQueryable</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Structs.html">Structs</a>
+            <a href="Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Structs/ArrayResponse.html">ArrayResponse</a>
+                <a href="Structs/ArrayResponseError.html">ArrayResponseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ArrayResponseError/Sys.html">– Sys</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/ClientConfiguration.html">ClientConfiguration</a>
@@ -203,33 +359,57 @@
                 <a href="Structs/Field.html">Field</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/LinkSys.html">LinkSys</a>
+                <a href="Structs/HeterogeneousArrayResponse.html">HeterogeneousArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/MappedArrayResponse.html">MappedArrayResponse</a>
+                <a href="Structs/HomogeneousArrayResponse.html">HomogeneousArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/MappedContent.html">MappedContent</a>
+                <a href="Structs/ImageOptionError.html">ImageOptionError</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/OrderParameter.html">OrderParameter</a>
+                <a href="Structs/Metadata.html">Metadata</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs.html#/s:V10Contentful14QueryParameter">QueryParameter</a>
+                <a href="Structs/Metadata/CodingKeys.html">– CodingKeys</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/Sys.html">Sys</a>
               </li>
+              <li class="nav-group-task">
+                <a href="Structs/Sys/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Text/Mark.html">– Mark</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Text/MarkType.html">– MarkType</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Typealiases.html">Typealiases</a>
+            <a href="Typealiases.html">Type Aliases</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Typealiases.html#/s:10Contentful14ResultsHandler">ResultsHandler</a>
+                <a href="Typealiases.html#/s:10Contentful13ArrayResponsea">ArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="Typealiases.html#/s:10Contentful14TaskObservable">TaskObservable</a>
+                <a href="Typealiases.html#/s:10Contentful13ContentTypeIda">ContentTypeId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:10Contentful9FieldNamea">FieldName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:10Contentful10LocaleCodea">LocaleCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:10Contentful18MixedArrayResponsea">MixedArrayResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:10Contentful14ResultsHandlera">ResultsHandler</a>
               </li>
             </ul>
           </li>
@@ -248,9 +428,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:P10Contentful22PersistenceIntegration"></a>
-                    <a name="//apple_ref/swift/Protocol/PersistenceIntegration" class="dashAnchor"></a>
-                    <a class="token" href="#/s:P10Contentful22PersistenceIntegration">PersistenceIntegration</a>
+                    <a name="/s:10Contentful13AssetProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/AssetProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful13AssetProtocolP">AssetProtocol</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -258,38 +438,61 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Conform to this protocol and initialize your <code><a href="Classes/Client.html">Client</a></code> instance with the <code>persistenceIntegration</code> 
-initialization parameter set to recieve messages about creation and deletion of <code><a href="Classes.html#/s:C10Contentful5Entry">Entry</a></code>s and <code><a href="Classes/Asset.html">Asset</a></code>s 
-in your space when doing sync operations using the <code>Client.initialSync()</code> and Client.nextSync()<code>methods.
-Proper conformance to this protocol should enable persisting the state changes that happen in your Contentful
-space to a persistent store such as</code>CoreData`.</p>
+                        <p>A simple protocol to bridge <code>Contentful.Asset</code> and other formats for storing asset information.</p>
 
-                        <a href="Protocols/PersistenceIntegration.html" class="slightly-smaller">See more</a>
+                        <a href="Protocols/AssetProtocol.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">PersistenceIntegration</span><span class="p">:</span> <span class="kt"><a href="Protocols/Integration.html">Integration</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AssetProtocol</span> <span class="p">:</span> <span class="kt"><a href="Protocols/FlatResource.html">FlatResource</a></span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L18-L102">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Asset.swift#L12-L16">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:P10Contentful11Integration"></a>
+                    <a name="/s:10Contentful14AssetDecodableP"></a>
+                    <a name="//apple_ref/swift/Protocol/AssetDecodable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14AssetDecodableP">AssetDecodable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Classes conforming to this protocol can be decoded during JSON deserialization as reprsentations
+of Contentful assets.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AssetDecodable</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AssetProtocol.html">AssetProtocol</a></span><span class="p">,</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Asset.swift#L20">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful11IntegrationP"></a>
                     <a name="//apple_ref/swift/Protocol/Integration" class="dashAnchor"></a>
-                    <a class="token" href="#/s:P10Contentful11Integration">Integration</a>
+                    <a class="token" href="#/s:10Contentful11IntegrationP">Integration</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -306,26 +509,160 @@ to be used in conjunction with the contentful.swift SDK.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Integration</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Integration</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/ClientConfiguration.swift#L21-L28">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/ClientConfiguration.swift#L21-L28">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:P10Contentful14QueryableRange"></a>
+                    <a name="/s:10Contentful12CustomLoggerP"></a>
+                    <a name="//apple_ref/swift/Protocol/CustomLogger" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful12CustomLoggerP">CustomLogger</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Implement this protocol in order to provide your own custom logger for the SDK to log messages to.
+Your <code>CustomLogger</code> instance will only be passed message it should log according the set log level.</p>
+
+                        <a href="Protocols/CustomLogger.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">CustomLogger</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/ContentfulLogger.swift#L13-L16">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14EntryDecodableP"></a>
+                    <a name="//apple_ref/swift/Protocol/EntryDecodable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful14EntryDecodableP">EntryDecodable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Classes conforming to this protocol can be passed into your <code><a href="Classes/Client.html">Client</a></code> instance so that fetch methods
+returning may decode the JSON to your own classes before returning them in async callbacks.</p>
+
+<p>It&rsquo;s important to note that there is no special handling of locales so if using the locale=* query parameter,
+you will need to implement the special handing in your <code>init(from decoder: Decoder) throws</code> initializer for your class.</p>
+
+<p>Example:</p>
+<pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">fetchArray</span><span class="p">(</span><span class="nv">of</span><span class="p">:</span> <span class="kt">Cat</span><span class="o">.</span><span class="k">self</span><span class="p">,</span> <span class="nv">matching</span><span class="p">:</span> <span class="kt">QueryON</span><span class="o">&lt;</span><span class="kt">Cat</span><span class="o">&gt;</span><span class="p">,</span>
+<span class="n">then</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">ResultsHandler</span><span class="o">&lt;</span><span class="kt">MappedArrayResponse</span><span class="o">&lt;</span><span class="kt">Cat</span><span class="o">&gt;&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span><span class="p">?</span>
+</code></pre>
+
+                        <a href="Protocols/EntryDecodable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">EntryDecodable</span> <span class="p">:</span> <span class="kt">AnyObject</span><span class="p">,</span> <span class="kt"><a href="Protocols/EndpointAccessible.html">EndpointAccessible</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/FlatResource.html">FlatResource</a></span><span class="p">,</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Entry.swift#L23-L26">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful18EndpointAccessibleP"></a>
+                    <a name="//apple_ref/swift/Protocol/EndpointAccessible" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful18EndpointAccessibleP">EndpointAccessible</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Classes conforming to this protocol are accessible via an <code><a href="Enums/Endpoint.html">Endpoint</a></code>.</p>
+
+                        <a href="Protocols/EndpointAccessible.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">EndpointAccessible</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Resource.swift#L65-L68">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful22PersistenceIntegrationP"></a>
+                    <a name="//apple_ref/swift/Protocol/PersistenceIntegration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP">PersistenceIntegration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Conform to this protocol and initialize your <code><a href="Classes/Client.html">Client</a></code> instance with the <code>persistenceIntegration</code>
+initialization parameter set to recieve messages about creation and deletion of <code><a href="Classes/Entry.html">Entry</a></code>s and <code><a href="Classes/Asset.html">Asset</a></code>s
+in your space when doing sync operations using the <code>Client.initialSync()</code> and Client.nextSync()<code>methods.
+Proper conformance to this protocol should enable persisting the state changes that happen in your Contentful
+space to a persistent store such as</code>CoreData`.</p>
+
+                        <a href="Protocols/PersistenceIntegration.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">PersistenceIntegration</span> <span class="p">:</span> <span class="kt"><a href="Protocols/Integration.html">Integration</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L16-L82">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful14QueryableRangeP"></a>
                     <a name="//apple_ref/swift/Protocol/QueryableRange" class="dashAnchor"></a>
-                    <a class="token" href="#/s:P10Contentful14QueryableRange">QueryableRange</a>
+                    <a class="token" href="#/s:10Contentful14QueryableRangeP">QueryableRange</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -342,12 +679,12 @@ See: <a href="https://www.contentful.com/developers/docs/references/content-deli
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">QueryableRange</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">QueryableRange</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L52-L55">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L123-L127">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -355,9 +692,9 @@ See: <a href="https://www.contentful.com/developers/docs/references/content-deli
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:P10Contentful13AbstractQuery"></a>
+                    <a name="/s:10Contentful13AbstractQueryP"></a>
                     <a name="//apple_ref/swift/Protocol/AbstractQuery" class="dashAnchor"></a>
-                    <a class="token" href="#/s:P10Contentful13AbstractQuery">AbstractQuery</a>
+                    <a class="token" href="#/s:10Contentful13AbstractQueryP">AbstractQuery</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -365,22 +702,44 @@ See: <a href="https://www.contentful.com/developers/docs/references/content-deli
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>A base abtract type which holds the bare essentials shared by all query types in the SDK which enable
+querying against content types, entries and assets.</p>
 
                         <a href="Protocols/AbstractQuery.html" class="slightly-smaller">See more</a>
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AbstractQuery</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L193-L201">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L192-L200">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
                 </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/KeyPath%2FValue%20operations."></a>
+                <a name="//apple_ref/swift/Section/KeyPath/Value operations." class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/KeyPath%2FValue%20operations."></a>
+                  <h3 class="section-name"><p>KeyPath/Value operations.</p>
+</h3>
+                </div>
+              </div>
+              <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:P10Contentful14ChainableQuery"></a>
+                    <a name="/s:10Contentful14ChainableQueryP"></a>
                     <a name="//apple_ref/swift/Protocol/ChainableQuery" class="dashAnchor"></a>
-                    <a class="token" href="#/s:P10Contentful14ChainableQuery">ChainableQuery</a>
+                    <a class="token" href="#/s:10Contentful14ChainableQueryP">ChainableQuery</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -389,8 +748,8 @@ See: <a href="https://www.contentful.com/developers/docs/references/content-deli
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Protocol which enables concrete query implementations to be &lsquo;chained&rsquo; together so that results
-can be filtered by more than one QueryOperation or other query. Protocol extensions give default implementation
-so that all concrete types, <code><a href="Classes/Query.html">Query</a></code>, <code><a href="Classes/AssetQuery.html">AssetQuery</a></code>, <code><a href="Classes/FilterQuery.html">FilterQuery</a></code>, and <code><a href="Classes/QueryOn.html">QueryOn&lt;EntryType&gt;</a></code>, can use the same implementation.</p>
+can be filtered by more than one <code><a href="Classes/Query/Operation.html">Query.Operation</a></code> or other query. Protocol extensions give default implementation
+so that all concrete types, <code><a href="Classes/Query.html">Query</a></code>, <code><a href="Classes/AssetQuery.html">AssetQuery</a></code>, <code>FilterQuery</code>, and <code><a href="Classes/QueryOn.html">QueryOn&lt;EntryType&gt;</a></code>, can use the same implementation.</p>
 
                         <a href="Protocols/ChainableQuery.html" class="slightly-smaller">See more</a>
                       </div>
@@ -398,26 +757,242 @@ so that all concrete types, <code><a href="Classes/Query.html">Query</a></code>,
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ChainableQuery</span><span class="p">:</span> <span class="kt"><a href="Protocols/AbstractQuery.html">AbstractQuery</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ChainableQuery</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AbstractQuery.html">AbstractQuery</a></span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L249">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L266">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:P10Contentful17ContentModellable"></a>
-                    <a name="//apple_ref/swift/Protocol/ContentModellable" class="dashAnchor"></a>
-                    <a class="token" href="#/s:P10Contentful17ContentModellable">ContentModellable</a>
+                    <a name="/s:10Contentful21AbstractResourceQueryP"></a>
+                    <a name="//apple_ref/swift/Protocol/AbstractResourceQuery" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful21AbstractResourceQueryP">AbstractResourceQuery</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A base abtract type which holds methods and constructors for all valid queries against resource: i.e. Contentful entries and assets.</p>
+
+                        <a href="Protocols/AbstractResourceQuery.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AbstractResourceQuery</span> <span class="p">:</span> <span class="kt"><a href="Protocols/ChainableQuery.html">ChainableQuery</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L551">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful10EntryQueryP"></a>
+                    <a name="//apple_ref/swift/Protocol/EntryQuery" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful10EntryQueryP">EntryQuery</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The base abstract type for querying Contentful entries. The contained operations in the default implementation
+of this protocol can only be used when querying against the `/entries/ endpoint of the Content Delivery and Content Preview APIs.
+See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters</a></p>
+
+                        <a href="Protocols/EntryQuery.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">EntryQuery</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AbstractResourceQuery.html">AbstractResourceQuery</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Query.swift#L653">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful8ResourceP"></a>
+                    <a name="//apple_ref/swift/Protocol/Resource" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful8ResourceP">Resource</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Protocol for resources inside Contentful.</p>
+
+                        <a href="Protocols/Resource.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Resource</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Resource.swift#L12-L16">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful12FlatResourceP"></a>
+                    <a name="//apple_ref/swift/Protocol/FlatResource" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful12FlatResourceP">FlatResource</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol signifying that a resource&rsquo;s <code><a href="Structs/Sys.html">Sys</a></code> property are accessible for lookup from the top level of the instance.</p>
+
+                        <a href="Protocols/FlatResource.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">FlatResource</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Resource.swift#L19-L31">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful18FieldKeysQueryableP"></a>
+                    <a name="//apple_ref/swift/Protocol/FieldKeysQueryable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful18FieldKeysQueryableP">FieldKeysQueryable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A protocol enabling strongly typed queries to the Contentful Delivery API via the SDK.</p>
+
+                        <a href="Protocols/FieldKeysQueryable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">FieldKeysQueryable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Resource.swift#L56-L61">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful17ResourceQueryableP"></a>
+                    <a name="//apple_ref/swift/Protocol/ResourceQueryable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful17ResourceQueryableP">ResourceQueryable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Entities conforming to this protocol have a <code>QueryType</code> that the SDK can use to make generic fetch requests.</p>
+
+                        <a href="Protocols/ResourceQueryable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ResourceQueryable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Resource.swift#L71-L74">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful4NodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/Node" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful4NodeP">Node</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The base protocol which all node types that may be present in a tree of Structured text.
+See: <a href="https://www.contentful.com/developers/docs/tutorials/general/structured-text-field-type-alpha/">https://www.contentful.com/developers/docs/tutorials/general/structured-text-field-type-alpha/</a> for more information.</p>
+
+                        <a href="Protocols/Node.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Node</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/RichText.swift#L13-L16">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful13RecursiveNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/RecursiveNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful13RecursiveNodeP">RecursiveNode</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -427,56 +1002,18 @@ so that all concrete types, <code><a href="Classes/Query.html">Query</a></code>,
                       <div class="abstract">
                         <p>Undocumented</p>
 
-                        <a href="Protocols/ContentModellable.html" class="slightly-smaller">See more</a>
+                        <a href="Protocols/RecursiveNode.html" class="slightly-smaller">See more</a>
                       </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/ContentModellable.swift#L13-L15">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:P10Contentful15SpaceModellable"></a>
-                    <a name="//apple_ref/swift/Protocol/SpaceModellable" class="dashAnchor"></a>
-                    <a class="token" href="#/s:P10Contentful15SpaceModellable">SpaceModellable</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">RecursiveNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/Node.html">Node</a></span></code></pre>
 
-                        <a href="Protocols/SpaceModellable.html" class="slightly-smaller">See more</a>
+                        </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/ContentModellable.swift#L17-L20">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:P10Contentful15EntryModellable"></a>
-                    <a name="//apple_ref/swift/Protocol/EntryModellable" class="dashAnchor"></a>
-                    <a class="token" href="#/s:P10Contentful15EntryModellable">EntryModellable</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Protocols/EntryModellable.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/ContentModellable.swift#L22-L26">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/RichText.swift#L18-L21">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -486,8 +1023,8 @@ so that all concrete types, <code><a href="Classes/Query.html">Query</a></code>,
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.contentful.com" target="_blank" rel="external">Contentful</a>. All rights reserved. (Last updated: 2017-07-31)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2021 <a class="link" href="https://www.contentful.com" target="_blank" rel="external">Contentful</a>. All rights reserved. (Last updated: 2021-05-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

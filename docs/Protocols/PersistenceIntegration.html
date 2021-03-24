@@ -8,14 +8,22 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Protocol/PersistenceIntegration" class="dashAnchor"></a>
     <a title="PersistenceIntegration Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Contentful Docs</a> (72% documented)</p>
+        <p><a href="../index.html">Contentful 5.5.0 Docs</a> (93% documented)</p>
         <p class="header-right"><a href="https://github.com/contentful/contentful.swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -32,7 +40,19 @@
             <a href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Classes/APIError.html">APIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/APIError/Sys.html">– Sys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/APIError/Details.html">– Details</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/Asset.html">Asset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Asset/Fields.html">– Fields</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Asset/FileMetadata.html">– FileMetadata</a>
@@ -41,22 +61,49 @@
                 <a href="../Classes/AssetQuery.html">AssetQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/Client.html">Client</a>
+                <a href="../Classes/BlockNode.html">BlockNode</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10Contentful12ContentModel">ContentModel</a>
+                <a href="../Classes.html#/s:10Contentful10BlockQuoteC">BlockQuote</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Client.html">Client</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/ContentType.html">ContentType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/ContentfulError.html">ContentfulError</a>
+                <a href="../Classes/ContentType/QueryableCodingKey.html">– QueryableCodingKey</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10Contentful5Entry">Entry</a>
+                <a href="../Classes/ContentTypeQuery.html">ContentTypeQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/FilterQuery.html">FilterQuery</a>
+                <a href="../Classes/DeletedResource.html">DeletedResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Entry.html">Entry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Heading.html">Heading</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful14HorizontalRuleC">HorizontalRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Hyperlink.html">Hyperlink</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Hyperlink/Data.html">– Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InlineNode.html">InlineNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LinkQuery.html">LinkQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful8ListItemC">ListItem</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Locale.html">Locale</a>
@@ -65,10 +112,31 @@
                 <a href="../Classes/LocalizableResource.html">LocalizableResource</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10Contentful19LocalizationContext">LocalizationContext</a>
+                <a href="../Classes/LocalizableResource/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocalizationContext.html">LocalizationContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ordered.html">Ordered</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful11OrderedListC">OrderedList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ordering.html">Ordering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful9ParagraphC">Paragraph</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Query.html">Query</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Query/Operation.html">– Operation</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/QueryOn.html">QueryOn</a>
@@ -77,7 +145,19 @@
                 <a href="../Classes/RateLimitError.html">RateLimitError</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/Resource.html">Resource</a>
+                <a href="../Classes/ResourceLinkBlock.html">ResourceLinkBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResourceLinkData.html">ResourceLinkData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResourceLinkInline.html">ResourceLinkInline</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResourceQuery.html">ResourceQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RichTextDocument.html">RichTextDocument</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Space.html">Space</a>
@@ -86,15 +166,30 @@
                 <a href="../Classes/SyncSpace.html">SyncSpace</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/SysISO8601DateTransform.html">SysISO8601DateTransform</a>
+                <a href="../Classes/SyncSpace/SyncableTypes.html">– SyncableTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful13UnorderedListC">UnorderedList</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Enums.html">Enums</a>
+            <a href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Enums/Bounds.html">Bounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentfulLogger.html">ContentfulLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentfulLogger/LogLevel.html">– LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentfulLogger/LogType.html">– LogType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Endpoint.html">Endpoint</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/FieldType.html">FieldType</a>
@@ -109,6 +204,9 @@
                 <a href="../Enums/Format.html">Format</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/Host.html">Host</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/ImageOption.html">ImageOption</a>
               </li>
               <li class="nav-group-task">
@@ -118,13 +216,22 @@
                 <a href="../Enums/Link.html">Link</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/Link/Sys.html">– Sys</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/MimetypeGroup.html">MimetypeGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NodeType.html">NodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PngBits.html">PngBits</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/QueryError.html">QueryError</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/QueryOperation.html">QueryOperation</a>
+                <a href="../Enums/QueryParameter.html">QueryParameter</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SDKError.html">SDKError</a>
@@ -138,13 +245,25 @@
                 <a href="../Extensions/Date.html">Date</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/Date/Formatter.html">– Formatter</a>
+                <a href="../Extensions/Date/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Decodable.html">Decodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Decoder.html">Decoder</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/Dictionary.html">Dictionary</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/KeyedDecodingContainer.html">KeyedDecodingContainer</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -155,10 +274,13 @@
             <a href="../Functions.html">Functions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:F10Contentfuloi2eeFTCS_8ResourceS0__Sb">==(_:_:)</a>
+                <a href="../Functions.html#/s:10Contentful1poiySDyxq_GAC_ACtSHRzr0_lF">+(_:_:)</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:F10Contentfuloi2eeFTOS_11ImageOptionS0__Sb">==(_:_:)</a>
+                <a href="../Functions.html#/s:10Contentful2peoiySDyxq_GAC_ACtSHRzr0_lF">+=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Contentful2eeoiySbAA11ImageOptionO_ADtF">==(_:_:)</a>
               </li>
             </ul>
           </li>
@@ -169,16 +291,40 @@
                 <a href="../Protocols/AbstractQuery.html">AbstractQuery</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/AbstractResourceQuery.html">AbstractResourceQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10Contentful14AssetDecodableP">AssetDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AssetProtocol.html">AssetProtocol</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/ChainableQuery.html">ChainableQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/ContentModellable.html">ContentModellable</a>
+                <a href="../Protocols/CustomLogger.html">CustomLogger</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/EntryModellable.html">EntryModellable</a>
+                <a href="../Protocols/EndpointAccessible.html">EndpointAccessible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EntryDecodable.html">EntryDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EntryQuery.html">EntryQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FieldKeysQueryable.html">FieldKeysQueryable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FlatResource.html">FlatResource</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/Integration.html">Integration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Node.html">Node</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/PersistenceIntegration.html">PersistenceIntegration</a>
@@ -187,15 +333,24 @@
                 <a href="../Protocols/QueryableRange.html">QueryableRange</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/SpaceModellable.html">SpaceModellable</a>
+                <a href="../Protocols/RecursiveNode.html">RecursiveNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Resource.html">Resource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ResourceQueryable.html">ResourceQueryable</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Structs.html">Structs</a>
+            <a href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Structs/ArrayResponse.html">ArrayResponse</a>
+                <a href="../Structs/ArrayResponseError.html">ArrayResponseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ArrayResponseError/Sys.html">– Sys</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/ClientConfiguration.html">ClientConfiguration</a>
@@ -204,33 +359,57 @@
                 <a href="../Structs/Field.html">Field</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/LinkSys.html">LinkSys</a>
+                <a href="../Structs/HeterogeneousArrayResponse.html">HeterogeneousArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/MappedArrayResponse.html">MappedArrayResponse</a>
+                <a href="../Structs/HomogeneousArrayResponse.html">HomogeneousArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/MappedContent.html">MappedContent</a>
+                <a href="../Structs/ImageOptionError.html">ImageOptionError</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/OrderParameter.html">OrderParameter</a>
+                <a href="../Structs/Metadata.html">Metadata</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs.html#/s:V10Contentful14QueryParameter">QueryParameter</a>
+                <a href="../Structs/Metadata/CodingKeys.html">– CodingKeys</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Sys.html">Sys</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Sys/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text/Mark.html">– Mark</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text/MarkType.html">– MarkType</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Typealiases.html">Typealiases</a>
+            <a href="../Typealiases.html">Type Aliases</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:10Contentful14ResultsHandler">ResultsHandler</a>
+                <a href="../Typealiases.html#/s:10Contentful13ArrayResponsea">ArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:10Contentful14TaskObservable">TaskObservable</a>
+                <a href="../Typealiases.html#/s:10Contentful13ContentTypeIda">ContentTypeId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful9FieldNamea">FieldName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful10LocaleCodea">LocaleCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful18MixedArrayResponsea">MixedArrayResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful14ResultsHandlera">ResultsHandler</a>
               </li>
             </ul>
           </li>
@@ -242,16 +421,20 @@
             <h1>PersistenceIntegration</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">PersistenceIntegration</span><span class="p">:</span> <span class="kt"><a href="../Protocols/Integration.html">Integration</a></span></code></pre>
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">PersistenceIntegration</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/Integration.html">Integration</a></span></code></pre>
 
                 </div>
               </div>
-            <p>Conform to this protocol and initialize your <code><a href="../Classes/Client.html">Client</a></code> instance with the <code>persistenceIntegration</code> 
-initialization parameter set to recieve messages about creation and deletion of <code><a href="../Classes.html#/s:C10Contentful5Entry">Entry</a></code>s and <code><a href="../Classes/Asset.html">Asset</a></code>s 
+            <p>Conform to this protocol and initialize your <code><a href="../Classes/Client.html">Client</a></code> instance with the <code>persistenceIntegration</code>
+initialization parameter set to recieve messages about creation and deletion of <code><a href="../Classes/Entry.html">Entry</a></code>s and <code><a href="../Classes/Asset.html">Asset</a></code>s
 in your space when doing sync operations using the <code>Client.initialSync()</code> and Client.nextSync()<code>methods.
 Proper conformance to this protocol should enable persisting the state changes that happen in your Contentful
 space to a persistent store such as</code>CoreData`.</p>
 
+              <div class="slightly-smaller">
+                <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L16-L82">Show on GitHub</a>
+              </div>
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -259,9 +442,9 @@ space to a persistent store such as</code>CoreData`.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FP10Contentful22PersistenceIntegration6updateFT11localeCodesGSaSS__T_"></a>
+                    <a name="/s:10Contentful22PersistenceIntegrationP6update11localeCodesySaySSG_tF"></a>
                     <a name="//apple_ref/swift/Method/update(localeCodes:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FP10Contentful22PersistenceIntegration6updateFT11localeCodesGSaSS__T_">update(localeCodes:)</a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP6update11localeCodesySaySSG_tF">update(localeCodes:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -269,19 +452,19 @@ space to a persistent store such as</code>CoreData`.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Updates the PersistenceIntegration with information about the locales supported in the current space.</p>
+                        <p>Updates the <code>PersistenceIntegration</code> with information about the locales supported in the current space.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">localeCodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">LocaleCode</span><span class="p">])</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">localeCodes</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Typealiases.html#/s:10Contentful10LocaleCodea">LocaleCode</a></span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L23">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L19">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -289,9 +472,9 @@ space to a persistent store such as</code>CoreData`.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FP10Contentful22PersistenceIntegration6updateFT4withCS_9SyncSpace_T_"></a>
+                    <a name="/s:10Contentful22PersistenceIntegrationP6update4withyAA9SyncSpaceC_tF"></a>
                     <a name="//apple_ref/swift/Method/update(with:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FP10Contentful22PersistenceIntegration6updateFT4withCS_9SyncSpace_T_">update(with:)</a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP6update4withyAA9SyncSpaceC_tF">update(with:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -299,7 +482,7 @@ space to a persistent store such as</code>CoreData`.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Update the local datastore with the latest delta messages from the most recently fetched SyncSpace response.</p>
+                        <p>Updates the local datastore with the latest delta messages from the most recently fetched SyncSpace response.</p>
 
 <p>There is no guarantee which thread this will be called from, so it is your responsibility when implementing
 this method, to execute on whatever thread your local datastore may require operations to be executed on.</p>
@@ -309,12 +492,12 @@ this method, to execute on whatever thread your local datastore may require oper
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">with</span> <span class="nv">syncSpace</span><span class="p">:</span> <span class="kt"><a href="../Classes/SyncSpace.html">SyncSpace</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">with</span> <span class="nv">syncSpace</span><span class="p">:</span> <span class="kt"><a href="../Classes/SyncSpace.html">SyncSpace</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L31">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L25">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -322,9 +505,9 @@ this method, to execute on whatever thread your local datastore may require oper
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FP10Contentful22PersistenceIntegration6createFT5assetCS_5Asset_T_"></a>
+                    <a name="/s:10Contentful22PersistenceIntegrationP6create5assetyAA5AssetC_tF"></a>
                     <a name="//apple_ref/swift/Method/create(asset:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FP10Contentful22PersistenceIntegration6createFT5assetCS_5Asset_T_">create(asset:)</a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP6create5assetyAA5AssetC_tF">create(asset:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -342,7 +525,7 @@ this method, to execute on whatever thread your local datastore may require oper
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">asset</span><span class="p">:</span> <span class="kt"><a href="../Classes/Asset.html">Asset</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">asset</span><span class="p">:</span> <span class="kt"><a href="../Classes/Asset.html">Asset</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -358,7 +541,7 @@ this method, to execute on whatever thread your local datastore may require oper
                               </td>
                               <td>
                                 <div>
-                                  <p>The created/updated Asset</p>
+                                  <p>he created/updated <code><a href="../Classes/Asset.html">Asset</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -366,7 +549,7 @@ this method, to execute on whatever thread your local datastore may require oper
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L42">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L33">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -374,9 +557,9 @@ this method, to execute on whatever thread your local datastore may require oper
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FP10Contentful22PersistenceIntegration6deleteFT11assetWithIdSS_T_"></a>
+                    <a name="/s:10Contentful22PersistenceIntegrationP6delete11assetWithIdySS_tF"></a>
                     <a name="//apple_ref/swift/Method/delete(assetWithId:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FP10Contentful22PersistenceIntegration6deleteFT11assetWithIdSS_T_">delete(assetWithId:)</a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP6delete11assetWithIdySS_tF">delete(assetWithId:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -384,7 +567,7 @@ this method, to execute on whatever thread your local datastore may require oper
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This is called whenever an Asset was deleted.</p>
+                        <p>This is called whenever an asset was deleted.</p>
 
 <p>There is no guarantee which thread this will be called from, so it is your responsibility when implementing
 this method, to execute on whatever thread your local datastore may require operations to be executed on.</p>
@@ -394,7 +577,7 @@ this method, to execute on whatever thread your local datastore may require oper
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">delete</span><span class="p">(</span><span class="nv">assetWithId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">delete</span><span class="p">(</span><span class="nv">assetWithId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -410,7 +593,7 @@ this method, to execute on whatever thread your local datastore may require oper
                               </td>
                               <td>
                                 <div>
-                                  <p>Identifier of the Asset that was deleted.</p>
+                                  <p>Identifier of the asset that was deleted.</p>
                                 </div>
                               </td>
                             </tr>
@@ -418,7 +601,7 @@ this method, to execute on whatever thread your local datastore may require oper
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L52">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L41">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -426,9 +609,9 @@ this method, to execute on whatever thread your local datastore may require oper
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FP10Contentful22PersistenceIntegration6createFT5entryCS_5Entry_T_"></a>
+                    <a name="/s:10Contentful22PersistenceIntegrationP6create5entryyAA5EntryC_tF"></a>
                     <a name="//apple_ref/swift/Method/create(entry:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FP10Contentful22PersistenceIntegration6createFT5entryCS_5Entry_T_">create(entry:)</a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP6create5entryyAA5EntryC_tF">create(entry:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -436,7 +619,7 @@ this method, to execute on whatever thread your local datastore may require oper
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This is called whenever a new Entry was created or an existing one was updated.</p>
+                        <p>This is called whenever a new entry was created or an existing one was updated.</p>
 
 <p>There is no guarantee which thread this will be called from, so it is your responsibility when implementing
 this method, to execute on whatever thread your local datastore may require operations to be executed on.</p>
@@ -446,7 +629,7 @@ this method, to execute on whatever thread your local datastore may require oper
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">entry</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/s:C10Contentful5Entry">Entry</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">entry</span><span class="p">:</span> <span class="kt"><a href="../Classes/Entry.html">Entry</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -462,7 +645,7 @@ this method, to execute on whatever thread your local datastore may require oper
                               </td>
                               <td>
                                 <div>
-                                  <p>The created/updated Entry</p>
+                                  <p>The created/updated <code><a href="../Classes/Entry.html">Entry</a></code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -470,7 +653,7 @@ this method, to execute on whatever thread your local datastore may require oper
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L62">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L49">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -478,9 +661,9 @@ this method, to execute on whatever thread your local datastore may require oper
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FP10Contentful22PersistenceIntegration6deleteFT11entryWithIdSS_T_"></a>
+                    <a name="/s:10Contentful22PersistenceIntegrationP6delete11entryWithIdySS_tF"></a>
                     <a name="//apple_ref/swift/Method/delete(entryWithId:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FP10Contentful22PersistenceIntegration6deleteFT11entryWithIdSS_T_">delete(entryWithId:)</a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP6delete11entryWithIdySS_tF">delete(entryWithId:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -488,7 +671,7 @@ this method, to execute on whatever thread your local datastore may require oper
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This is called whenever an Entry was deleted.</p>
+                        <p>This is called whenever an entry was deleted before the next sync.</p>
 
 <p>There is no guarantee which thread this will be called from, so it is your responsibility when implementing
 this method, to execute on whatever thread your local datastore may require operations to be executed on.</p>
@@ -498,7 +681,7 @@ this method, to execute on whatever thread your local datastore may require oper
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">delete</span><span class="p">(</span><span class="nv">entryWithId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">delete</span><span class="p">(</span><span class="nv">entryWithId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -514,7 +697,7 @@ this method, to execute on whatever thread your local datastore may require oper
                               </td>
                               <td>
                                 <div>
-                                  <p>Identifier of the Entry that was deleted.</p>
+                                  <p>Identifier of the entry that was deleted.</p>
                                 </div>
                               </td>
                             </tr>
@@ -522,7 +705,7 @@ this method, to execute on whatever thread your local datastore may require oper
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L72">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L57">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -530,9 +713,9 @@ this method, to execute on whatever thread your local datastore may require oper
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FP10Contentful22PersistenceIntegration6updateFT9syncTokenSS_T_"></a>
+                    <a name="/s:10Contentful22PersistenceIntegrationP6update9syncTokenySS_tF"></a>
                     <a name="//apple_ref/swift/Method/update(syncToken:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FP10Contentful22PersistenceIntegration6updateFT9syncTokenSS_T_">update(syncToken:)</a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP6update9syncTokenySS_tF">update(syncToken:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -540,9 +723,9 @@ this method, to execute on whatever thread your local datastore may require oper
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This method is called on completion of a successful <code>Client.initialSync</code> and <code>Client.nextSync</code>
+                        <p>This method is called on completion of a successful <code>sync</code> call on a <code><a href="../Classes/Client.html">Client</a></code> instance.
 calls so that the sync token can be cached and future launches of your application can synchronize
-without doing an <code>initialSync</code>.</p>
+without doing an <code>sync</code>.</p>
 
 <p>There is no guarantee which thread this will be called from, so it is your responsibility when implementing
 this method, to execute on whatever thread your local datastore may require operations to be executed on.</p>
@@ -552,12 +735,31 @@ this method, to execute on whatever thread your local datastore may require oper
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">syncToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">syncToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>syncToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The string sync token that should be cached to that subsequent sync&rsquo;s pickup at the right spot.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L82">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L67">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -565,9 +767,9 @@ this method, to execute on whatever thread your local datastore may require oper
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FP10Contentful22PersistenceIntegration20resolveRelationshipsFT_T_"></a>
+                    <a name="/s:10Contentful22PersistenceIntegrationP20resolveRelationshipsyyF"></a>
                     <a name="//apple_ref/swift/Method/resolveRelationships()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FP10Contentful22PersistenceIntegration20resolveRelationshipsFT_T_">resolveRelationships()</a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP20resolveRelationshipsyyF">resolveRelationships()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -575,11 +777,10 @@ this method, to execute on whatever thread your local datastore may require oper
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This method is called after all <code><a href="../Classes.html#/s:C10Contentful5Entry">Entry</a></code>s have been created and all links have been resolved.
-The implementation should map <code><a href="../Classes.html#/s:C10Contentful5Entry">Entry</a></code> fields that are <code><a href="../Enums/Link.html">Link</a></code>s to persistent relationships in
-the underlying persistent data store.</p>
-
-<p>There is no guarantee which thread this will be called from, so it is your responsibility when implementing
+                        <p>This method is called after all <code><a href="../Classes/Entry.html">Entry</a></code>s have been created and all links have been resolved.
+The implementation should map <code><a href="../Classes/Entry.html">Entry</a></code> fields that are <code><a href="../Enums/Link.html">Link</a></code>s to persistent relationships in
+the underlying persistent data store.
+There is no guarantee which thread this will be called from, so it is your responsibility when implementing
 this method, to execute on whatever thread your local datastore may require operations to be executed on.</p>
 
                       </div>
@@ -587,12 +788,12 @@ this method, to execute on whatever thread your local datastore may require oper
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">resolveRelationships</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">resolveRelationships</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L92">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L74">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -600,9 +801,9 @@ this method, to execute on whatever thread your local datastore may require oper
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FP10Contentful22PersistenceIntegration4saveFT_T_"></a>
+                    <a name="/s:10Contentful22PersistenceIntegrationP4saveyyF"></a>
                     <a name="//apple_ref/swift/Method/save()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FP10Contentful22PersistenceIntegration4saveFT_T_">save()</a>
+                    <a class="token" href="#/s:10Contentful22PersistenceIntegrationP4saveyyF">save()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -610,7 +811,7 @@ this method, to execute on whatever thread your local datastore may require oper
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This method is called after all <code><a href="../Classes/Asset.html">Asset</a></code>s and <code><a href="../Classes.html#/s:C10Contentful5Entry">Entry</a></code>s have been tranformed to persistable data
+                        <p>This method is called after all assets and entries have been tranformed to persistable data
 structures. The implementation should actually perform the save operation to the persisent database.</p>
 
 <p>There is no guarantee which thread this will be called from, so it is your responsibility when implementing
@@ -621,12 +822,12 @@ this method, to execute on whatever thread your local datastore may require oper
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">save</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">save</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Persistence.swift#L101">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/Persistence.swift#L81">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -636,8 +837,8 @@ this method, to execute on whatever thread your local datastore may require oper
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.contentful.com" target="_blank" rel="external">Contentful</a>. All rights reserved. (Last updated: 2017-07-31)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2021 <a class="link" href="https://www.contentful.com" target="_blank" rel="external">Contentful</a>. All rights reserved. (Last updated: 2021-05-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

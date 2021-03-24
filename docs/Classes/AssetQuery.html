@@ -8,14 +8,22 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/AssetQuery" class="dashAnchor"></a>
     <a title="AssetQuery Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Contentful Docs</a> (72% documented)</p>
+        <p><a href="../index.html">Contentful 5.5.0 Docs</a> (93% documented)</p>
         <p class="header-right"><a href="https://github.com/contentful/contentful.swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -32,7 +40,19 @@
             <a href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Classes/APIError.html">APIError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/APIError/Sys.html">– Sys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/APIError/Details.html">– Details</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/Asset.html">Asset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Asset/Fields.html">– Fields</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Asset/FileMetadata.html">– FileMetadata</a>
@@ -41,22 +61,49 @@
                 <a href="../Classes/AssetQuery.html">AssetQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/Client.html">Client</a>
+                <a href="../Classes/BlockNode.html">BlockNode</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10Contentful12ContentModel">ContentModel</a>
+                <a href="../Classes.html#/s:10Contentful10BlockQuoteC">BlockQuote</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Client.html">Client</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/ContentType.html">ContentType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/ContentfulError.html">ContentfulError</a>
+                <a href="../Classes/ContentType/QueryableCodingKey.html">– QueryableCodingKey</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10Contentful5Entry">Entry</a>
+                <a href="../Classes/ContentTypeQuery.html">ContentTypeQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/FilterQuery.html">FilterQuery</a>
+                <a href="../Classes/DeletedResource.html">DeletedResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Entry.html">Entry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Heading.html">Heading</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful14HorizontalRuleC">HorizontalRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Hyperlink.html">Hyperlink</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Hyperlink/Data.html">– Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InlineNode.html">InlineNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LinkQuery.html">LinkQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful8ListItemC">ListItem</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Locale.html">Locale</a>
@@ -65,10 +112,31 @@
                 <a href="../Classes/LocalizableResource.html">LocalizableResource</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes.html#/s:C10Contentful19LocalizationContext">LocalizationContext</a>
+                <a href="../Classes/LocalizableResource/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocalizationContext.html">LocalizationContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ordered.html">Ordered</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful11OrderedListC">OrderedList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Ordering.html">Ordering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful9ParagraphC">Paragraph</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Query.html">Query</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Query/Operation.html">– Operation</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/QueryOn.html">QueryOn</a>
@@ -77,7 +145,19 @@
                 <a href="../Classes/RateLimitError.html">RateLimitError</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/Resource.html">Resource</a>
+                <a href="../Classes/ResourceLinkBlock.html">ResourceLinkBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResourceLinkData.html">ResourceLinkData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResourceLinkInline.html">ResourceLinkInline</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ResourceQuery.html">ResourceQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RichTextDocument.html">RichTextDocument</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/Space.html">Space</a>
@@ -86,15 +166,30 @@
                 <a href="../Classes/SyncSpace.html">SyncSpace</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/SysISO8601DateTransform.html">SysISO8601DateTransform</a>
+                <a href="../Classes/SyncSpace/SyncableTypes.html">– SyncableTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10Contentful13UnorderedListC">UnorderedList</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Enums.html">Enums</a>
+            <a href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Enums/Bounds.html">Bounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentfulLogger.html">ContentfulLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentfulLogger/LogLevel.html">– LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentfulLogger/LogType.html">– LogType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Endpoint.html">Endpoint</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/FieldType.html">FieldType</a>
@@ -109,6 +204,9 @@
                 <a href="../Enums/Format.html">Format</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/Host.html">Host</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/ImageOption.html">ImageOption</a>
               </li>
               <li class="nav-group-task">
@@ -118,13 +216,22 @@
                 <a href="../Enums/Link.html">Link</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/Link/Sys.html">– Sys</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/MimetypeGroup.html">MimetypeGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NodeType.html">NodeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PngBits.html">PngBits</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/QueryError.html">QueryError</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/QueryOperation.html">QueryOperation</a>
+                <a href="../Enums/QueryParameter.html">QueryParameter</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/SDKError.html">SDKError</a>
@@ -138,13 +245,25 @@
                 <a href="../Extensions/Date.html">Date</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/Date/Formatter.html">– Formatter</a>
+                <a href="../Extensions/Date/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Decodable.html">Decodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Decoder.html">Decoder</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/Dictionary.html">Dictionary</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/KeyedDecodingContainer.html">KeyedDecodingContainer</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
@@ -155,10 +274,13 @@
             <a href="../Functions.html">Functions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:F10Contentfuloi2eeFTCS_8ResourceS0__Sb">==(_:_:)</a>
+                <a href="../Functions.html#/s:10Contentful1poiySDyxq_GAC_ACtSHRzr0_lF">+(_:_:)</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:F10Contentfuloi2eeFTOS_11ImageOptionS0__Sb">==(_:_:)</a>
+                <a href="../Functions.html#/s:10Contentful2peoiySDyxq_GAC_ACtSHRzr0_lF">+=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10Contentful2eeoiySbAA11ImageOptionO_ADtF">==(_:_:)</a>
               </li>
             </ul>
           </li>
@@ -169,16 +291,40 @@
                 <a href="../Protocols/AbstractQuery.html">AbstractQuery</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols/AbstractResourceQuery.html">AbstractResourceQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10Contentful14AssetDecodableP">AssetDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AssetProtocol.html">AssetProtocol</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/ChainableQuery.html">ChainableQuery</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/ContentModellable.html">ContentModellable</a>
+                <a href="../Protocols/CustomLogger.html">CustomLogger</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/EntryModellable.html">EntryModellable</a>
+                <a href="../Protocols/EndpointAccessible.html">EndpointAccessible</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EntryDecodable.html">EntryDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EntryQuery.html">EntryQuery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FieldKeysQueryable.html">FieldKeysQueryable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FlatResource.html">FlatResource</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/Integration.html">Integration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Node.html">Node</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/PersistenceIntegration.html">PersistenceIntegration</a>
@@ -187,15 +333,24 @@
                 <a href="../Protocols/QueryableRange.html">QueryableRange</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols/SpaceModellable.html">SpaceModellable</a>
+                <a href="../Protocols/RecursiveNode.html">RecursiveNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Resource.html">Resource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ResourceQueryable.html">ResourceQueryable</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Structs.html">Structs</a>
+            <a href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Structs/ArrayResponse.html">ArrayResponse</a>
+                <a href="../Structs/ArrayResponseError.html">ArrayResponseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ArrayResponseError/Sys.html">– Sys</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/ClientConfiguration.html">ClientConfiguration</a>
@@ -204,33 +359,57 @@
                 <a href="../Structs/Field.html">Field</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/LinkSys.html">LinkSys</a>
+                <a href="../Structs/HeterogeneousArrayResponse.html">HeterogeneousArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/MappedArrayResponse.html">MappedArrayResponse</a>
+                <a href="../Structs/HomogeneousArrayResponse.html">HomogeneousArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/MappedContent.html">MappedContent</a>
+                <a href="../Structs/ImageOptionError.html">ImageOptionError</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/OrderParameter.html">OrderParameter</a>
+                <a href="../Structs/Metadata.html">Metadata</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs.html#/s:V10Contentful14QueryParameter">QueryParameter</a>
+                <a href="../Structs/Metadata/CodingKeys.html">– CodingKeys</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Sys.html">Sys</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Sys/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text/Mark.html">– Mark</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text/MarkType.html">– MarkType</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Typealiases.html">Typealiases</a>
+            <a href="../Typealiases.html">Type Aliases</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:10Contentful14ResultsHandler">ResultsHandler</a>
+                <a href="../Typealiases.html#/s:10Contentful13ArrayResponsea">ArrayResponse</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:10Contentful14TaskObservable">TaskObservable</a>
+                <a href="../Typealiases.html#/s:10Contentful13ContentTypeIda">ContentTypeId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful9FieldNamea">FieldName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful10LocaleCodea">LocaleCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful18MixedArrayResponsea">MixedArrayResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10Contentful14ResultsHandlera">ResultsHandler</a>
               </li>
             </ul>
           </li>
@@ -242,12 +421,16 @@
             <h1>AssetQuery</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AssetQuery</span><span class="p">:</span> <span class="kt"><a href="../Classes/Query.html">Query</a></span></code></pre>
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">AssetQuery</span> <span class="p">:</span> <span class="kt"><a href="../Classes/ResourceQuery.html">ResourceQuery</a></span></code></pre>
 
                 </div>
               </div>
-            <p>Queries on Asset types. All methods from Query, and therefore ChainableQuery, are inherited and available.</p>
+            <p>Queries on Asset types. All methods from <code><a href="../Protocols/ChainableQuery.html">ChainableQuery</a></code> are available.</p>
 
+              <div class="slightly-smaller">
+                <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/TypedQuery.swift#L384-L464">Show on GitHub</a>
+              </div>
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -255,9 +438,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC10Contentful10AssetQuerycFT20whereMimetypeGroupIsOS_13MimetypeGroup_S0_"></a>
-                    <a name="//apple_ref/swift/Method/init(whereMimetypeGroupIs:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10Contentful10AssetQuerycFT20whereMimetypeGroupIsOS_13MimetypeGroup_S0_">init(whereMimetypeGroupIs:)</a>
+                    <a name="/s:10Contentful10AssetQueryC5where13mimetypeGroupAcA08MimetypeF0O_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/where(mimetypeGroup:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful10AssetQueryC5where13mimetypeGroupAcA08MimetypeF0O_tFZ">where(mimetypeGroup:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -265,12 +448,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Convenience intializer for creating an AssetQuery with the <q>mimetype_group</q> parameter specified. Example usage:</p>
-<pre class="highlight plaintext"><code>let query = AssetQuery(whereMimetypeGroupIs: .image)
-client.fetchAssets(with: query).observable.then { assetsResponse in
-   let assets = assetsResponse.items
-   // Do stuff with assets.
-}
+                        <p>Convenience initializer for creating an <code>AssetQuery</code> with the &ldquo;mimetype_group&rdquo; parameter specified. Example usage:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="kt">AssetQuery</span><span class="o">.</span><span class="nf">where</span><span class="p">(</span><span class="nv">mimetypeGroup</span><span class="p">:</span> <span class="o">.</span><span class="n">image</span><span class="p">)</span>
 </code></pre>
 
                       </div>
@@ -278,7 +457,7 @@ client.fetchAssets(with: query).observable.then { assetsResponse in
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">whereMimetypeGroupIs</span> <span class="nv">mimetypeGroup</span><span class="p">:</span> <span class="kt"><a href="../Enums/MimetypeGroup.html">MimetypeGroup</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="nv">mimetypeGroup</span><span class="p">:</span> <span class="kt"><a href="../Enums/MimetypeGroup.html">MimetypeGroup</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AssetQuery</span></code></pre>
 
                         </div>
                       </div>
@@ -301,8 +480,12 @@ client.fetchAssets(with: query).observable.then { assetsResponse in
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A newly initialized <code>AssetQuery</code> query.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L564-L567">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/TypedQuery.swift#L394-L398">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -310,9 +493,9 @@ client.fetchAssets(with: query).observable.then { assetsResponse in
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:FC10Contentful10AssetQuery13mimetypeGroupFT2isOS_13MimetypeGroup_T_"></a>
-                    <a name="//apple_ref/swift/Method/mimetypeGroup(is:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:FC10Contentful10AssetQuery13mimetypeGroupFT2isOS_13MimetypeGroup_T_">mimetypeGroup(is:)</a>
+                    <a name="/s:10Contentful10AssetQueryC5where13mimetypeGroupAcA08MimetypeF0O_tF"></a>
+                    <a name="//apple_ref/swift/Method/where(mimetypeGroup:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful10AssetQueryC5where13mimetypeGroupAcA08MimetypeF0O_tF">where(mimetypeGroup:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -327,7 +510,8 @@ client.fetchAssets(with: query).observable.then { assetsResponse in
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mimetypeGroup</span><span class="p">(</span><span class="k">is</span> <span class="nv">mimetypeGroup</span><span class="p">:</span> <span class="kt"><a href="../Enums/MimetypeGroup.html">MimetypeGroup</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="err">`</span><span class="k">where</span><span class="err">`</span><span class="p">(</span><span class="nv">mimetypeGroup</span><span class="p">:</span> <span class="kt"><a href="../Enums/MimetypeGroup.html">MimetypeGroup</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">AssetQuery</span></code></pre>
 
                         </div>
                       </div>
@@ -350,8 +534,148 @@ client.fetchAssets(with: query).observable.then { assetsResponse in
                           </tbody>
                         </table>
                       </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/contentful/contentful.swift/tree//Sources/Query.swift#L574-L576">Show on GitHub</a>
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/TypedQuery.swift#L405-L408">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful10AssetQueryC6select6fieldsACSayAA0B0C6FieldsOG_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/select(fields:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful10AssetQueryC6select6fieldsACSayAA0B0C6FieldsOG_tFZ">select(fields:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Static method for creating a new <code>AssetQuery</code> with a select operation: an operation in which only
+the fields specified in the fieldNames parameter will be returned in the JSON response.
+This variation for initialization guarantees correct query contruction by utilizing the typesafe <code>Asset.FieldKeys</code>.
+The &ldquo;sys&rdquo; dictionary is always requested by the SDK.</p>
+
+<p>Example usage:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="kt">AssetQuery</span><span class="o">.</span><span class="nf">select</span><span class="p">(</span><span class="nv">fieldsNamed</span><span class="p">:</span> <span class="p">[</span><span class="o">.</span><span class="n">file</span><span class="p">])</span>
+<span class="n">client</span><span class="o">.</span><span class="nf">fetchArray</span><span class="p">(</span><span class="nv">of</span><span class="p">:</span> <span class="kt">Asset</span><span class="o">.</span><span class="k">self</span><span class="p">,</span> <span class="nv">matching</span><span class="p">:</span> <span class="n">query</span><span class="p">)</span> <span class="p">{</span> <span class="p">(</span><span class="nv">result</span><span class="p">:</span> <span class="kt">Result</span><span class="o">&lt;</span><span class="kt">ArrayResponse</span><span class="o">&lt;</span><span class="kt">Asset</span><span class="o">&gt;&gt;</span><span class="p">)</span> <span class="k">in</span>
+    <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="k">let</span> <span class="nv">arrayResponse</span><span class="p">):</span>
+        <span class="k">let</span> <span class="nv">assets</span> <span class="o">=</span> <span class="n">arrayResponse</span><span class="o">.</span><span class="n">items</span>
+        <span class="c1">// Do stuff with assets.</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="k">let</span> <span class="nv">error</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/select-operator">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/select-operator</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">select</span><span class="p">(</span><span class="n">fields</span> <span class="nv">fieldsKeys</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/Asset.html">Asset</a></span><span class="o">.</span><span class="kt">Fields</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">AssetQuery</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fieldsKeys</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of <code>Asset.FieldKeys</code> of the asset you are performing your select operation against.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A newly initialized <code>AssetQuery</code> query.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/TypedQuery.swift#L434-L438">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Contentful10AssetQueryC6select6fieldsACSayAA0B0C6FieldsOG_tF"></a>
+                    <a name="//apple_ref/swift/Method/select(fields:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Contentful10AssetQueryC6select6fieldsACSayAA0B0C6FieldsOG_tF">select(fields:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Instance method for mutating an <code>AssetQuery</code> with a select operation: an operation in which only
+the fields specified in the fieldNames parameter will be returned in the JSON response.
+This variation for initialization guarantees correct query contruction by utilizing the typesafe <code>Asset.FieldKeys</code>.
+The &ldquo;sys&rdquo; dictionary is always requested by the SDK.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="kt">AssetQuery</span><span class="o">.</span><span class="nf">select</span><span class="p">(</span><span class="nv">fieldsNamed</span><span class="p">:</span> <span class="p">[</span><span class="o">.</span><span class="n">file</span><span class="p">])</span>
+<span class="n">client</span><span class="o">.</span><span class="nf">fetchMappedEntries</span><span class="p">(</span><span class="nv">with</span><span class="p">:</span> <span class="n">query</span><span class="p">)</span><span class="o">.</span><span class="n">then</span> <span class="p">{</span> <span class="n">catsResponse</span> <span class="k">in</span>
+    <span class="k">let</span> <span class="nv">cats</span> <span class="o">=</span> <span class="n">catsResponse</span><span class="o">.</span><span class="n">items</span>
+    <span class="c1">// Do stuff with cats.</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>See: <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/select-operator">https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters/select-operator</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">select</span><span class="p">(</span><span class="n">fields</span> <span class="nv">fieldsKeys</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/Asset.html">Asset</a></span><span class="o">.</span><span class="kt">Fields</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">AssetQuery</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fieldsKeys</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of <code>Asset.FieldKeys</code> of the asset you are performing your select operation against.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A reference to the receiving query to enable chaining.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/contentful/contentful.swift/tree/5.5.0/Sources/Contentful/TypedQuery.swift#L458-L463">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -361,8 +685,8 @@ client.fetchAssets(with: query).observable.then { assetsResponse in
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://www.contentful.com" target="_blank" rel="external">Contentful</a>. All rights reserved. (Last updated: 2017-07-31)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2021 <a class="link" href="https://www.contentful.com" target="_blank" rel="external">Contentful</a>. All rights reserved. (Last updated: 2021-05-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

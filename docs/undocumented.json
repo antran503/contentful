@@ -1,635 +1,299 @@
 {
   "warnings": [
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ArrayResponse.swift",
-      "line": 50,
-      "symbol": "ArrayResponse.init(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Asset.swift",
-      "line": 51,
-      "symbol": "Asset.FileMetadata",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Asset.swift",
-      "line": 65,
-      "symbol": "Asset.FileMetadata.init(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ClientConfiguration.swift",
-      "line": 33,
-      "symbol": "ClientConfiguration.default",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 13,
-      "symbol": "ContentModellable",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 14,
-      "symbol": "ContentModellable.id",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 17,
-      "symbol": "SpaceModellable",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 22,
-      "symbol": "EntryModellable",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 23,
-      "symbol": "EntryModellable.contentTypeId",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 25,
-      "symbol": "EntryModellable.init(entry:linkDepth:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 28,
-      "symbol": "ContentModel",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 38,
-      "symbol": "MappedContent",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 40,
-      "symbol": "MappedContent.assets",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentModellable.swift",
-      "line": 42,
-      "symbol": "MappedContent.entries",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ContentType.swift",
-      "line": 29,
-      "symbol": "ContentType.init(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Date.swift",
-      "line": 15,
-      "symbol": "Date.Formatter",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Date.swift",
-      "line": 17,
-      "symbol": "Date.Formatter.iso8601",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Date.swift",
-      "line": 41,
-      "symbol": "SysISO8601DateTransform",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Date.swift",
-      "line": 43,
-      "symbol": "SysISO8601DateTransform.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Error.swift",
-      "line": 110,
-      "symbol": "ContentfulError.id",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Error.swift",
-      "line": 112,
-      "symbol": "ContentfulError.type",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Error.swift",
-      "line": 116,
-      "symbol": "ContentfulError.init(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Error.swift",
-      "line": 126,
-      "symbol": "ContentfulError.mapping(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Field.swift",
-      "line": 46,
-      "symbol": "Field",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Field.swift",
-      "line": 65,
-      "symbol": "Field.itemType",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Field.swift",
-      "line": 69,
-      "symbol": "Field.init(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 78,
-      "symbol": "ImageOption",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 133,
-      "symbol": "==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 233,
-      "symbol": "Focus.top",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 234,
-      "symbol": "Focus.bottom",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 235,
-      "symbol": "Focus.left",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 236,
-      "symbol": "Focus.right",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 237,
-      "symbol": "Focus.topLeft",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 238,
-      "symbol": "Focus.topRight",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 239,
-      "symbol": "Focus.bottomLeft",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 240,
-      "symbol": "Focus.bottomRight",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 241,
-      "symbol": "Focus.face",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 242,
-      "symbol": "Focus.faces",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 265,
-      "symbol": "Fit.crop",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 266,
-      "symbol": "Fit.fill",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 267,
-      "symbol": "Fit.thumb",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/ImageOptions.swift",
-      "line": 268,
-      "symbol": "Fit.scale",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Link.swift",
-      "line": 12,
-      "symbol": "LinkSys",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Locale.swift",
-      "line": 32,
-      "symbol": "Locale.init(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": null,
-      "symbol": "AbstractQuery",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 36,
-      "symbol": "OrderParameter.init(_:inReverse:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 54,
-      "symbol": "QueryableRange.stringValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 59,
-      "symbol": "Int.stringValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 65,
-      "symbol": "String.stringValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 72,
-      "symbol": "Date.stringValue",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 80,
-      "symbol": "Bounds.box",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 81,
-      "symbol": "Bounds.circle",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 87,
-      "symbol": "MimetypeGroup",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 88,
-      "symbol": "MimetypeGroup.attachment",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 89,
-      "symbol": "MimetypeGroup.plaintext",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 90,
-      "symbol": "MimetypeGroup.image",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 91,
-      "symbol": "MimetypeGroup.audio",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 92,
-      "symbol": "MimetypeGroup.video",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 93,
-      "symbol": "MimetypeGroup.richtext",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 94,
-      "symbol": "MimetypeGroup.presentation",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 95,
-      "symbol": "MimetypeGroup.spreadsheet",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 96,
-      "symbol": "MimetypeGroup.pdfdocument",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/ArrayResponse.swift",
       "line": 97,
-      "symbol": "MimetypeGroup.archive",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "symbol": "ArrayResponse",
+      "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 98,
-      "symbol": "MimetypeGroup.code",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/ArrayResponse.swift",
+      "line": 263,
+      "symbol": "MixedArrayResponse",
+      "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 99,
-      "symbol": "MimetypeGroup.markup",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/Client.swift",
+      "line": 48,
+      "symbol": "Client.jsonDecoder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 121,
-      "symbol": "QueryOperation.equals",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/Decodable.swift",
+      "line": 14,
+      "symbol": "Decoder.canResolveLinks",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 122,
-      "symbol": "QueryOperation.doesNotEqual",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/Decodable.swift",
+      "line": 28,
+      "symbol": "Decoder.contentTypes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 123,
-      "symbol": "QueryOperation.hasAll",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/Decodable.swift",
+      "line": 88,
+      "symbol": "Decodable.popEntryDecodable(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 124,
-      "symbol": "QueryOperation.includes",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/Link.swift",
+      "line": 28,
+      "symbol": "Link.Sys.init(id:linkType:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 125,
-      "symbol": "QueryOperation.excludes",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/Resource.swift",
+      "line": 38,
+      "symbol": "FlatResource.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 126,
-      "symbol": "QueryOperation.exists",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 133,
-      "symbol": "QueryOperation.isLessThanOrEqualTo",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 134,
-      "symbol": "QueryOperation.isGreaterThan",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 135,
-      "symbol": "QueryOperation.isGreaterThanOrEqualTo",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 139,
-      "symbol": "QueryOperation.isWithin",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 193,
-      "symbol": "AbstractQuery",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 18,
+      "symbol": "RecursiveNode",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Query.swift",
-      "line": 197,
-      "symbol": "AbstractQuery.init()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Resource.swift",
-      "line": 30,
-      "symbol": "Resource.init(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Resource.swift",
-      "line": 81,
-      "symbol": "LocalizableResource.init(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Resource.swift",
-      "line": 115,
-      "symbol": "==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.free",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Resource.swift",
-      "line": 132,
-      "symbol": "Dictionary.string(at:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Resource.swift",
-      "line": 136,
-      "symbol": "Dictionary.strings(at:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Resource.swift",
-      "line": 140,
-      "symbol": "Dictionary.int(at:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Space.swift",
-      "line": 32,
-      "symbol": "Space.init(map:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/SyncSpace.swift",
-      "line": 18,
-      "symbol": "SyncSpace.deletedAssetIds",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/SyncSpace.swift",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
       "line": 19,
-      "symbol": "SyncSpace.deletedEntryIds",
+      "symbol": "RecursiveNode.content",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/SyncSpace.swift",
-      "line": 60,
-      "symbol": "SyncSpace.init(map:)",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 20,
+      "symbol": "RecursiveNode.resolveLinks(against:and:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Sys.swift",
-      "line": 12,
-      "symbol": "Sys",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 66,
+      "symbol": "ResourceLinkData.init(resolvedTarget:title:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Sys.swift",
-      "line": 32,
-      "symbol": "Sys.revision",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 154,
+      "symbol": "BlockNode.content",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jpwright/Contentful/swift/SDK/contentful.swift/Sources/Sys.swift",
-      "line": 36,
-      "symbol": "Sys.init(map:)",
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 162,
+      "symbol": "BlockNode.init(nodeType:content:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 167,
+      "symbol": "BlockNode.resolveLinks(against:and:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 181,
+      "symbol": "InlineNode.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 189,
+      "symbol": "InlineNode.init(nodeType:content:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 194,
+      "symbol": "InlineNode.resolveLinks(against:and:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 211,
+      "symbol": "RichTextDocument.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 213,
+      "symbol": "RichTextDocument.init(content:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 230,
+      "symbol": "RichTextDocument.encode(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 235,
+      "symbol": "RichTextDocument.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 249,
+      "symbol": "RichTextDocument.resolveLinks(against:and:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 278,
+      "symbol": "Heading.init(level:content:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 293,
+      "symbol": "Heading.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 320,
+      "symbol": "Hyperlink.Data.init(uri:title:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 326,
+      "symbol": "Hyperlink.init(data:content:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 331,
+      "symbol": "Hyperlink.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 337,
+      "symbol": "Hyperlink.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 351,
+      "symbol": "ResourceLinkBlock.init(resolvedData:nodeType:content:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 356,
+      "symbol": "ResourceLinkBlock.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 362,
+      "symbol": "ResourceLinkBlock.resolveLinks(against:and:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 384,
+      "symbol": "ResourceLinkBlock.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 397,
+      "symbol": "ResourceLinkInline.init(resolvedData:nodeType:content:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 402,
+      "symbol": "ResourceLinkInline.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 408,
+      "symbol": "ResourceLinkInline.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 414,
+      "symbol": "ResourceLinkInline.resolveLinks(against:and:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 446,
+      "symbol": "Text.init(value:marks:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 454,
+      "symbol": "Text.Mark.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/RichText.swift",
+      "line": 456,
+      "symbol": "Text.Mark.init(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/SyncSpace.swift",
+      "line": 81,
+      "symbol": "SyncSpace.hasMorePages",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift/Sources/Contentful/TypedQuery.swift",
+      "line": 15,
+      "symbol": "Query.any",
+      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/jpwright/Contentful/swift/SDK/contentful.swift"
+  "source_directory": "/Volumes/Extreme_SSD/Dev/Contentful/ContentfulTests/contentful_swift"
 }
